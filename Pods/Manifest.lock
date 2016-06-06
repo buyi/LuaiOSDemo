@@ -1,0 +1,19 @@
+PODS:
+  - LuaViewSDK (2.1.0.6)
+
+DEPENDENCIES:
+  - LuaViewSDK (from `https://github.com/alibaba/LuaViewSDK.git`)
+
+EXTERNAL SOURCES:
+  LuaViewSDK:
+    :git: https://github.com/alibaba/LuaViewSDK.git
+
+CHECKOUT OPTIONS:
+  LuaViewSDK:
+    :commit: d0eeba099970923cd5962d9bdec612c8fc0ba3d2
+    :git: https://github.com/alibaba/LuaViewSDK.git
+
+SPEC CHECKSUMS:
+  LuaViewSDK: 710548f6128763c85efb0103b8ecc3d48a026786
+
+COCOAPODS: 0.39.0

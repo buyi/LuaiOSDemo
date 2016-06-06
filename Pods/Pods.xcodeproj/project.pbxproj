@@ -1,0 +1,1240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002074491BE59C6F09ED3A7576ADFDF3 /* LVHeads.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE65F9C6575444FAEF7C3BBCF5F402 /* LVHeads.m */; };
+		00D2AD6C3E265E1717DEC1C6B15816DC /* LVDebugLua.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ECB337647FDA160F8F3C74DBA5D4B7 /* LVDebugLua.m */; };
+		00DA3A18BDD7649BCD701B80D322C07C /* UIView+LuaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA7114B2C60C9EB5FA4897841A256F /* UIView+LuaView.m */; };
+		030472B91CC2C2502434F3411AFDB1DA /* lVdo.c in Sources */ = {isa = PBXBuildFile; fileRef = 538D060108120D6DE629B5E3A94366F1 /* lVdo.c */; };
+		035F8A6D1C97D5F06ADDCF1399051D01 /* LVZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C46BBF9E44A56368FE9534B97BD814 /* LVZipArchive.m */; };
+		09EEEEE396CEBA3FF63F733D72D6957C /* lVgc.c in Sources */ = {isa = PBXBuildFile; fileRef = 546694D504058972B7C862CE17EAE98D /* lVgc.c */; };
+		0A424A467344535CACAB6264F5810A14 /* LVBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 736F5AA28D28A095081B53D0F6470A1E /* LVBlock.m */; };
+		0A708A8E45A5047674B45A2D25CD0410 /* LVSwipeGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B107A73AC29FE3C1306C8703119ECC3 /* LVSwipeGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ADB8025C900DFBAB9DD1C0D075B9D15 /* LVCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FAE0DE7F6F7B71A3FC5417AF4160A /* LVCollectionViewCell.m */; };
+		0D13DA126DA6ED750181084159B4CEBC /* lVdump.c in Sources */ = {isa = PBXBuildFile; fileRef = B1DC11081515619501FF5E0424359617 /* lVdump.c */; };
+		0D3BD9C78CCB0DABCDB130ACC283854D /* LVGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = C8DE058C56080EAF5AACC35147ACFBA2 /* LVGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D8E41F85636EE95E13E6E1F0B1F3740 /* lVvm.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FAAD14612676DEDACA3BD5E3D7B32A7 /* lVvm.c */; };
+		0D94F767880763F38B8BE225CF082078 /* LVTransform3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 98768D9BF3B33D4DA90F4E344296686D /* LVTransform3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F2C5D205C892184763AA4A124E1BE1F /* lVtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 47F5A52D031FF55D8F64E1C6E3091150 /* lVtable.c */; };
+		109586294A3579BB3F80E26D0A0546E0 /* LVCollectionViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 224C167C3CB49C7036671FB2FAAAB509 /* LVCollectionViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10E539977E499FF036A563FF25CD14E0 /* lVoslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 01F34AD3E2DAB396A9D835C3CF00F41F /* lVoslib.c */; };
+		122104BF58BCF6B72B3C6852B23C6AD3 /* lViolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 5031B193BE2D547D92ECED7746493F50 /* lViolib.c */; };
+		14A27728669EB75F64B335E62A4E6BEC /* LVSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 92395C89239DF3FBD4DC560006EB0D30 /* LVSystem.m */; };
+		1613CA19CA98BFF3B75C1C68228932B2 /* LVTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9BB7174BC1AE045B24BEA6C9E4E757 /* LVTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1675BA69BA68275943BFA0EA5F76B1BB /* lVobject.c in Sources */ = {isa = PBXBuildFile; fileRef = 30444384511E1229D948DA681DED3866 /* lVobject.c */; };
+		17CF52CE886712BA1F3A10CDAB946F57 /* LVTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = A772E81E1D4C3E2612811B8683EC2B4E /* LVTapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		181F5A17D124D0E85D95DE5047E1CEEF /* JUFLXLayoutDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = EF21459BFAD349BBBDE13B0BFF12D870 /* JUFLXLayoutDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187D41937406CFAB78CA9270DFCB3617 /* LVRotationGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = C9DE97FBD4227BFA407D796033EBA09F /* LVRotationGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18F78403B25EB3C30A82FE031C91DCD8 /* lVmem.h in Headers */ = {isa = PBXBuildFile; fileRef = B9F0D2D169F0CC8D851BF12F886E7081 /* lVmem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19D9C4F2597044784BF5DA6A16996051 /* lVmathlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FFEA9B30F7FC60D89597B1A0351FD /* lVmathlib.c */; };
+		1A0AD45F80379A03689C81995382D4AC /* LVButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E13FCEB23F2EC7E283DBFB8127FEEBC /* LVButton.m */; };
+		1A11FD30E304EAACA8A04A00C5F7EEB9 /* lVtable.h in Headers */ = {isa = PBXBuildFile; fileRef = C34FCFBE0D83D0D5127B525EE062BC72 /* lVtable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A23335C6E5D0B9CEF88B4AFF5FB6DF6 /* lVcode.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D646D235EEE33CED0F9BABDC87A4A5 /* lVcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B12FAC364C9C41C3A11D55E9719E60C /* LVDB.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB800017C619501084F252A6D7A3839 /* LVDB.m */; };
+		1CDD8821F0A532D06E039CA90EDED3F0 /* JUFLXNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AC34124C943BDA8480AB3409E7BB41 /* JUFLXNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FBFD3A41D252F3B904B065C5F893981 /* lVbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = DC1962C6917D50F7C0B4A8E59528C8A3 /* lVbaselib.c */; };
+		20F652D1A11B2A7F409F8BFE99C9F5AB /* LVCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6E9C3B656EA7485D817876047D0D85 /* LVCollectionView.m */; };
+		23EBC8A46C01D7D0A6AC14AD135EA929 /* LVBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EC037117097B586465D7379BEEFF0F8 /* LVBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288A9F4F1A3405CBDF00E8222C174BED /* LVTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CFB6620FFA90F2979B442755997EC4 /* LVTapGestureRecognizer.m */; };
+		2A106C9FD657A5922EF0B57678C56AF8 /* LVScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF9932AA31EFE3A59B19673D5941766 /* LVScrollView.m */; };
+		2A2A1EE181355D64E323FA9EB870B79F /* LVPinchGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF8DEF346C2D9ED3A942B74D3483019 /* LVPinchGestureRecognizer.m */; };
+		2A9E4FF6908E5569101EF29E9DC8E965 /* LVAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF51954AA16E77CF48BC1A1E8B989A /* LVAlert.m */; };
+		2BB51F2624D563473B1FEE034BA72DE6 /* lVdebug.c in Sources */ = {isa = PBXBuildFile; fileRef = 608B3E137B074A2351DCB807D8F494A5 /* lVdebug.c */; };
+		2EBFB86863B122BE4005400751232B80 /* LVBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E9C3748FD54AA6AEB685A08A7D3F5F /* LVBundle.m */; };
+		2FDFC30108976FABDFA383809674D193 /* LVTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8ED29384488DD720BF0679C2771516 /* LVTableViewDelegate.m */; };
+		2FF50A7BBA18960127F838B82130545C /* LVRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 99CBA6271B471E934F45C1892370DE38 /* LVRSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30FA3C7A01B427B680A5E661439B6160 /* LVPointerValueBox.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD3BBD5F6DADA12EE2A8727D2ED3126 /* LVPointerValueBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3103BF932FAA265E032D10AAB9CE0B60 /* LVLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0EF85431F2F638BB32C1AEA457DEB7 /* LVLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31704E348F0C762BADFA15537FE7A7E2 /* lVtm.c in Sources */ = {isa = PBXBuildFile; fileRef = 7745D9C5E9570A36DB8BDFDA1C6ED2F3 /* lVtm.c */; };
+		32A25FF3D6877A288447020EE2A44577 /* lV.c in Sources */ = {isa = PBXBuildFile; fileRef = 06B198B1BF7F9246D9EE99F764DDED38 /* lV.c */; };
+		3305184F9492BC6E63EF8AD5193A82A2 /* LVPkgManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA842627154D3D0BB2FD8B7504D8072 /* LVPkgManager.m */; };
+		340929E8E4ABF127DC73233059F862FD /* LVDebugConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0406EDD3547D06A9CDAB42B34AD9B067 /* LVDebugConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34670326D04A8A07CE3A50CC3FF1331B /* lVlib.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F7911428B0B495649D732E5529E0A6 /* lVlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		350D989DCDC17FAF2C31FF8960568660 /* LVTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 808E6AB15D82139DC7EA68FC81B2DC43 /* LVTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DBF84D0B45F1EDB71D2F487126236B /* lVmem.c in Sources */ = {isa = PBXBuildFile; fileRef = B5A683472C2C4067D6C25CF6AA7C7869 /* lVmem.c */; };
+		37EE8A5A48E366A67BFA5C3C7D80A038 /* LVDebuger.m in Sources */ = {isa = PBXBuildFile; fileRef = BA57422B2F0D6E1F4C1EF83793EB4971 /* LVDebuger.m */; };
+		39ACB4AE431C3D7E6A60137D94CB17C2 /* Layout.c in Sources */ = {isa = PBXBuildFile; fileRef = 387C78EA6E6B08B3EEDBD2040F0396FC /* Layout.c */; };
+		39EA4A0AB61269F66718AA0C0B3796A7 /* lVdebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B09486D45B70A0096E0C5D26949510 /* lVdebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D88420C2787CF22C8DBF9FD6CB1B69E /* LVStyledString.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E678078A6E9807E5C5E9E7BAF4F0FA1 /* LVStyledString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DEC62E3E2EB3634C64CECF2744D34FA /* LVTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A715E3BE080F1667F4EFBA39B3205D53 /* LVTextField.m */; };
+		3E21F54B47413D96D70CD1650ED23228 /* lVparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 933F08F31BD3CC53AF345162CCDA287E /* lVparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40206D7FBB558525BD4D1FA597306B54 /* LVImage.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E31CAEE83F92682B0139D18A93B0C8 /* LVImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40B72DDBE21739DA38B9026F98410BBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */; };
+		4174AB65A5C1235885314665F43A6181 /* LVHeads.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5BFB0F8AE4CC05B11337890D1BFE21 /* LVHeads.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41F3A4FEAA41ED0C36180C1E66387DD6 /* lVstring.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E635553ABFA780E2B2F4F6C05D7F5E /* lVstring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43311CFC6D1166B9FEFC5928A120C407 /* LVData.h in Headers */ = {isa = PBXBuildFile; fileRef = ED4A41E3F8101F9EF6E94C24D885A712 /* LVData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4499DFB1DF53AB450C0A217465EA0E63 /* Pods-LuaBuyi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 670903C6923C0A52F6EE6C1CD3103DB0 /* Pods-LuaBuyi-dummy.m */; };
+		44CC899D29F14E2F45E1FD1EBC2A9D6F /* LVNinePatchImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D459843EC85A6916639CB06786FC621 /* LVNinePatchImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44F0B6997927928EA466C9D749D15149 /* lVzio.h in Headers */ = {isa = PBXBuildFile; fileRef = F951A489FDD46EA89FF5A8E55164DA09 /* lVzio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4664D5D23F35CE9A05C783D0AF20A17D /* LVTypeConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = 960E92734C85F4C9DA0863F9BD67FFAA /* LVTypeConvert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4782B0306CDFF5881A1CC9D47EBFFB3A /* LVCustomPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D857D41514597DB9CF950448A2D6283 /* LVCustomPanel.m */; };
+		4949429FD007AE47412E61D52B6B6EF5 /* LVGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FBC28D29762BD33BF22C7F756EED21 /* LVGestureRecognizer.m */; };
+		49D2A9E55DA18F2C4A841144B88BC112 /* LVNetworkStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 60022F51A1634A08FBC23174DCCEEE38 /* LVNetworkStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B21DD923191A14CC287F50E15B18A9E /* LVCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 89EAF61955BC920E7B20030CE0E9275C /* LVCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C6AC388735CEF33161A8E661E8A89E7 /* lVparser.c in Sources */ = {isa = PBXBuildFile; fileRef = F460059B63FC8328B21CDD7579150F6A /* lVparser.c */; };
+		4CBAA5CB2C747F6C22AEC50796527723 /* LVToast.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C4C18672862F211AA127BE65C9F052 /* LVToast.m */; };
+		4D70DA02C28EB8FD571A3D1F92BB2D04 /* LVAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F700326692EC11FED30A0C557466C /* LVAnimate.m */; };
+		4F3CFA184ED3201A548B83BEECB1C2E6 /* lVdblib.c in Sources */ = {isa = PBXBuildFile; fileRef = 913FA19718D0E7224FFB0FF8FFD47698 /* lVdblib.c */; };
+		4FE64B3E1AF8DA6D0CC75D849FC90B09 /* LVAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = B63941D74A8B16A4CE4B8B8FFB673588 /* LVAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		513D08E13A89B4EC6FD0DAED2F70449B /* UIView+LuaView.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F23E6382A5DF0F143296E341F28FDE /* UIView+LuaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		533E9CF27D9295B46E58B2DD162D0339 /* LVRegisterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A04011D4F1C8DE6F9C4BFECC330D387 /* LVRegisterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5444DB4A385DAD2AB241F9955FF652FF /* LVCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 408B3F98A56D2F3DFA4D7A215C4ABFD2 /* LVCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55C78C4CB7FA7950016D85EBFF2C557A /* LVDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B51D951AA28C5A7BA8796FC09C2E9D17 /* LVDownloader.m */; };
+		5748134EE376B74031508FA37567B2E5 /* LVTransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = CF54A92A7CA7D67E9448385AD07DC5D7 /* LVTransform3D.m */; };
+		593827D82BB037FA1DCCB0B4D673979B /* JUFLXNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5B011CA59413F79A857882812A3E1 /* JUFLXNode.m */; };
+		5A66320AA7581D147DD28AE7A496B0DA /* LVExternalLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4323C1200A63A4A66D53CA834A34EF60 /* LVExternalLinker.m */; };
+		5A9203A78648F8B3D91573AC4DE4F389 /* lVprint.c in Sources */ = {isa = PBXBuildFile; fileRef = 97450B1793527796F0AABEBFD7A39E7F /* lVprint.c */; };
+		5B40B9095DC3BB788A7348499F2B8BD4 /* lV.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D23FC9B00137902AC9A781FA90CAA87 /* lV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C1629833553CC8042121D1C3F99C588 /* LVPinchGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9155714C08A8E2A21A4DB4E42ACE965A /* LVPinchGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CF74976FE6D098A53B39C16F184B648 /* LView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDEE28E2FFFB845E5EAE9E367AED228 /* LView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D20781CFC3FD1BDFFB4B559E599C7D5 /* JUFLXTargeNamespace.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B6A2DFEC8AE0726B22C5206ED25644 /* JUFLXTargeNamespace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FE0265081376C47C209FE7E8897A19E /* lVc.c in Sources */ = {isa = PBXBuildFile; fileRef = 8366C644EFD42ACDB19BED7999DB9E4F /* lVc.c */; };
+		60217A721AB3F4AD13D7B3F65146C670 /* lVtm.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E80A802B4D4350EB89BD2EB24310B2 /* lVtm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61BFDF3D34E30715D17DA6EFBD39E262 /* LVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C2228BC80221157B0A7A7E4433C46C /* LVAudioPlayer.m */; };
+		6619EDDC683068BEEF5E399CAECB4616 /* UIScrollView+LuaView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FEE681F103B2439527722EDFD5A16F /* UIScrollView+LuaView.m */; };
+		6696E05BCA92F437B61ACB7D60145E86 /* lVvm.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A9BB0F2B1F8E886D0A97DD1E57BE27 /* lVvm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6746A2998B76D18E8843B1118ED3CEB6 /* LVUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCF88C73C72C6A98A78FC25B0E7B9BF /* LVUtil.m */; };
+		6774F600283CC3E0A1A9F2CC0443A0A5 /* LVTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB90085098CC917541FC478CEA7544EF /* LVTableView.m */; };
+		679FF32AC9B6D9F67A5F8D58564B40B6 /* JUFLXCSSParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C7616A118C363F5D5206450B8D9B927C /* JUFLXCSSParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B06412DE7DC7639CB3C161B54E26341 /* LVNativeObjBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A517461C24980A6A3CB2088D81184DE /* LVNativeObjBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B13B7079C71C07CA84790C873885607 /* LVMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DC0179721086B27873C547C00318B /* LVMethod.m */; };
+		6D17B4B6E9CAE224CCBBA2A50C322C96 /* LVTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 393A596905931AA1A862FD01ACAF6A71 /* LVTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D2C7F907543CF0B5A4AF8078A1FA35B /* LVDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8A8E6828B4EF12B7D0D6559D80F48 /* LVDate.m */; };
+		6D87660AF7BF1089ADCE5338ECD89906 /* LVPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52FDE6E4C130C892EDCBEE220FC6F5 /* LVPanGestureRecognizer.m */; };
+		6FB78C9AF026B7C261861FF087DC8B85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
+		6FC5DE28A83E5ABA48E4CF65D949ED8B /* LVDebuger.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F84CAA6939E580A6F073D236E7D303 /* LVDebuger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FD6B4D828B7DB22DE9C521FC4AEE94A /* JUFLXLayoutKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D3F423E977086B6CE2F160C09D02740 /* JUFLXLayoutKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7444EFB733C731F8A4762791F6E2FFAC /* lVapi.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D888ACC13083FE347F55B89CAD1236 /* lVapi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F52DBF66474338CC33155A69ED37ED /* lVstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = B899F943419F46960C8C8AB36C785AAB /* lVstrlib.c */; };
+		7794797A6CE18BC707AAE28D68DF5609 /* LVLuaObjBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D6EF1CC763872DEA6ACBCE6A69361C7 /* LVLuaObjBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A4911EFC30FBFD2F7ACAA517D285B33 /* LVMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F6F945DF35BC0021E03C9D0455781E /* LVMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A852ED3E1ED1249AFE9B708EB7BDB74 /* LViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC6E25581D5DEE8529B6A94B7D90CF /* LViewController.m */; };
+		7B7A973D90DB4B019E7F51F00B511F9B /* LVScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = AEAF8F3E19DB67856CC64BB81B4A63B3 /* LVScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8076B769E6DEE5D210F5545296E8F7C0 /* Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 357CD96A9E98BEBC85C8CB6836D2AC69 /* Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83B4EF10815DAC988CE9A1DF1C927925 /* lVinit.c in Sources */ = {isa = PBXBuildFile; fileRef = 82E70A3C91C57EE93746B3F93BED4D73 /* lVinit.c */; };
+		85604B8A0DD0B187BAAAAFF4B2C2DCFA /* LVStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC2640A0A4B313CF435BFDB04AD96A /* LVStruct.m */; };
+		867E90453DBF663E27CC06C105DD865F /* LView.m in Sources */ = {isa = PBXBuildFile; fileRef = 382AEFF2C1ECFB58CD19368C988EC239 /* LView.m */; };
+		87837A32EBB47F673579595456B26C17 /* LVAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB3E90A9613C3F5C789AB5890D47ED1 /* LVAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B5FA97EFD8F414AA429DB56CF6D8483 /* LVLoadingIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2521F5E397B3971A9F1E000B340B6340 /* LVLoadingIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D66FB7C8A01C5704869AE4F47119BB7 /* lVzio.c in Sources */ = {isa = PBXBuildFile; fileRef = 2437FC1AA45C320C6BDF0A39C4CC6A87 /* lVzio.c */; };
+		8E20DD7328F084E2CF567991004D33D7 /* LVImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 372B826113165F87FB4E81A6DA07DE0E /* LVImage.m */; };
+		8F3113A2681B82E3E93B7A78B9CFE87D /* LVBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B3ED16A09C2F9ADBB98608DE3D33AE /* LVBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9080BD55E26A4E9BF7E4E83BE8BE3851 /* LVPagerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7F6681597EE330B0656614C853794F /* LVPagerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93533BB28525E9BAA9A5CAC62ADF2301 /* lVtablib.c in Sources */ = {isa = PBXBuildFile; fileRef = C25D344421B61847646064C3A00E8D18 /* lVtablib.c */; };
+		94639FA84F25FDBF3C473DACF0FEDCB1 /* lVoadlib.c in Sources */ = {isa = PBXBuildFile; fileRef = C3FAA5D254EBFAF84E3BE3CBF5EDCB82 /* lVoadlib.c */; };
+		94F5DFE7FD54B663E3BA5A8410D1DD5C /* LVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33ADAF1455EB244468F5FCD20C24F86C /* LVTableViewCell.m */; };
+		955061CED5FFADFBA7288F14259471D2 /* LVNativeObjBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A09AC91AACC64E61D403736642221AC3 /* LVNativeObjBox.m */; };
+		95E8688DC99810E252632AEA3DC4A7E9 /* LVDB.h in Headers */ = {isa = PBXBuildFile; fileRef = D86140EA21185A241A3D338957E3BC25 /* LVDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		960D306432B872718D326A05DD6FF8BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */; };
+		986ABC13F27D74817529977564AC96BD /* lVfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = BC5BF3EB24E9D7BDAD1A18DC9C569808 /* lVfunc.c */; };
+		9CA2F752928C3AB2761FF778242344E9 /* lVfunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D26CA071C35442B9908BC068B8992A /* lVfunc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DDAD198E32A63DA9504694E6276E68F /* LVLuaObjBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 554421FF7436835F5ADB12A58F74207D /* LVLuaObjBox.m */; };
+		9EC8371112AD4DF2039E7290A720B76E /* LVScrollViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EA2BFC12D80358180AD2830EDF47DE /* LVScrollViewDelegate.m */; };
+		9F1D778CD07543B3BD9ACB8EC9F3E6B0 /* LVLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C427ADA31CF16932F56806EB6E11BB /* LVLongPressGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0E84C54DE5B1BAA535C2FED8D6A1E17 /* LVHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EFA9E82B49A9BFA2B2F378D8BFDDB /* LVHttp.m */; };
+		A1875E4DD5D34E83A87D3D88E5ECAF08 /* LVToast.h in Headers */ = {isa = PBXBuildFile; fileRef = D8527E2E8EB2191851A947D38A1F8162 /* LVToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A241C7B67EBA8472F180349C0FB20564 /* LVLoadingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA53A8B0284E93314F03BC43E72DC54 /* LVLoadingIndicator.m */; };
+		A28042C94E3DB372B3A285D9EF25143E /* LVPagerIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB8CFC280ABDCFA84881DE174375352 /* LVPagerIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A349B2A1C50A544C15EE2D282CC8724E /* LVAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3698DD89C9F29D07D106A16B512CF314 /* LVAnimator.m */; };
+		A57FBA63D8F2495528CC6DE1BDF81622 /* LVStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 746796D7AAD0BD4AC7132DC51938DF6A /* LVStruct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A85AABDB9A1B361C866BAD3131564A04 /* LVDebugConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C99BD8C57926D550E7CEC9BD4D60DD /* LVDebugConnection.m */; };
+		A9FB636303FCFBC001470648E904B498 /* lVopcodes.h in Headers */ = {isa = PBXBuildFile; fileRef = FB4BD4050FDFA93AE4233FB1E38312E0 /* lVopcodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC64354D150C9FC293CE5C9609BED42C /* UIGestureRecognizer+LuaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A218B67EAAB593A6945F2899DD5A1A /* UIGestureRecognizer+LuaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC8F479023E1A4B30F239E14E5624A74 /* lVapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C0D51640926E57C34A4F0307E03C4 /* lVapi.c */; };
+		ADFA4ECF9479679ACB0B147F296A9C72 /* LVCustomPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 89A2CD2E9CADC6741DA74940561FD1BF /* LVCustomPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B00869E59912960EE876F6CBC8B18B74 /* lVopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E9E9C1E12BE7AF0C0C3BB2196807A /* lVopcodes.c */; };
+		B07A23DDD3A59E3D174A04F84C55573A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
+		B10C08D0DB4D6427AFE85FB04D77B3EE /* lVgc.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A9147D84673F22307586634AED854B /* lVgc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A1D9AED687C5187276E483C20165A9 /* lVlex.h in Headers */ = {isa = PBXBuildFile; fileRef = D7676D4B91F0E0F00656D3D93B1D0C12 /* lVlex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3513932B777E11562EE799E65935607 /* LVLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4C0EB0D779DFA00CD36C9A570969D3 /* LVLongPressGestureRecognizer.m */; };
+		B3650974A37CDBFBEA0BEE400B1A6ACB /* lVcode.c in Sources */ = {isa = PBXBuildFile; fileRef = 485F28F8DEF10EB160431B86B55A9802 /* lVcode.c */; };
+		B559DD31146FDE61733333462332105D /* LVTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 354719B530E0FDB17C203C09A3070AF4 /* LVTimer.m */; };
+		B70B5A0118A3E6EC8E2A150501DC1FD6 /* LVLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47298AA4F821D714264068A037A773C7 /* LVLabel.m */; };
+		B73AA8F81603C2591AF5DEE445422514 /* lVlimits.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C43B920F3B13C4E65F1DA29F5D5511 /* lVlimits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7B5FA56A33686981436E2501F6F167A /* lVobject.h in Headers */ = {isa = PBXBuildFile; fileRef = 932E396363BDC7A06C9A6A0E35CE3CBF /* lVobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAC8F329A48288F2BB80880DC055103B /* lVstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D43D6419AE4C7C84E47E80397479CB6 /* lVstring.c */; };
+		BB1FB3B673A9C06BB0C69E57DA36F68A /* LVZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 863BCDD64643F043377AD2DE651D498A /* LVZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC6FE3EC8C39E4560EA70B15534F6048 /* UIScrollView+LuaView.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB0D3B0DBAFDBA952EE502F810F308A /* UIScrollView+LuaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD676EBF5E7EF1CEF37318E1F22F5E31 /* LVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5E94740DD89BF7FD610B9F6648974 /* LVFile.m */; };
+		C045EBD7BC782D12EE099AEA956A57E2 /* LVAnimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1000F820D9D558B1C4AFDAE11888474A /* LVAnimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C356BE1907B14B12032B46D6D6B89E09 /* LVDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = C60052B6A65CC1EE193202CA288864F7 /* LVDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C57E9C1E98E4386124B50CA68F514B6C /* LuaViewSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DBB1F8ACB5BC7B9FE87EE856C5C8BA /* LuaViewSDK-dummy.m */; };
+		C5FF9F70A35516F4069A508D206FFE00 /* UIView+JUFLXNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A8BEA531AE81709CB0F5BB922CFA185 /* UIView+JUFLXNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7DE70E3C1C417F86612E44C08759A14 /* LVUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DC10D7EDCC454656BFBA635AFE8B1447 /* LVUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C93F7AF40D1AFCA6D9AC033A6E14C641 /* LVTypeConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = E303E80E3FAAD26313065A2D40707197 /* LVTypeConvert.m */; };
+		CA44F81250FC450B73F8F08957631949 /* LVBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B48309BCE825C91238248210D6DC38 /* LVBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB22AB0F60571DAB031547C7A712727F /* LVExternalLinker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D5528A479B2DE45CA961EFFDE2BD826 /* LVExternalLinker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBF1622D6A1F422656E8C78C3AEBFB2F /* lVundump.c in Sources */ = {isa = PBXBuildFile; fileRef = 10F2F9E266BE90E24129BA5D67C04570 /* lVundump.c */; };
+		CCBA81A65FA23E313CB347BBBFBBAA8D /* lVstate.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FFE65B048918975040C78508E84635E /* lVstate.c */; };
+		CE3D8C40B0A82EE0B4408EFA75181873 /* LVTableViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 74639C1106020AAF38373ABD11BF6838 /* LVTableViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE4BC1FEC76BF999E71E1542FE49D29E /* JUFLXCSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 59939532B638257D338F1BF3633C20D7 /* JUFLXCSSParser.m */; };
+		D033E259A9E1788A595BBE0436285C0B /* lVconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D718D4C7E2AE1D89384AE034F2F81CD /* lVconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D06316123EABD3B0C00EFEA05593577B /* UIGestureRecognizer+LuaView.m in Sources */ = {isa = PBXBuildFile; fileRef = A901ABC44E17C956CA1ED1DAC6006DA2 /* UIGestureRecognizer+LuaView.m */; };
+		D0D5B51E0284C76E482785DAADB182B4 /* LVPagerViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A058E5EB5DB4F38B4754385CF1415F /* LVPagerViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D18BC38C8E1CC1EFF190B55CDDDDC2C4 /* JUFLXLinearLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9705B0294F7A2CA86F04B9FE12A81F4A /* JUFLXLinearLayoutView.m */; };
+		D32351144BEA4FE430DECA67F20F65E8 /* UIView+JUFLXNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE900B15E6FD9F3686663D30419B56 /* UIView+JUFLXNode.m */; };
+		D3B800E5EBAD40DBDA4ED6AD0A946AB2 /* lVdo.h in Headers */ = {isa = PBXBuildFile; fileRef = 00424C6F7C5519E025ABA7E5836467CC /* lVdo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3C56E62994F7DAECDED26AB3E36AE89 /* LVHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = DF13316F11FB0D977DAFE7D148672AB8 /* LVHttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D436C627980AA544660530B933AC3B73 /* LVRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7764571106E9B86814309CCD90A837 /* LVRSA.m */; };
+		D43C6CB1E78D88C7BD0D4AAAC23F015A /* lVauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 75C2242E46F16D96CCCDD276FA1DAAAE /* lVauxlib.c */; };
+		D4570A98E5E6E59D6016C480DCFBC3E0 /* LVHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0A6C1E89C003AC46D69420CD8EDE4C /* LVHttpResponse.m */; };
+		D4EE8769E90A1C5B06E18B12EE46756F /* LVNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 6585CA47D4E7BC9CC2C4A9B7F59D8DEE /* LVNetworkStatus.m */; };
+		D5F136DFDB9B5657AC51F3202A133271 /* LVPagerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF29E531CB45763BEB71A7909B059B8 /* LVPagerViewCell.m */; };
+		D7B7C2A658001FFBF4AD79022482F7B8 /* LVPkgManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 45CC2315F7D936576574636994BDC6CC /* LVPkgManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8F4FC1484CD4B409B6C6544F1D781E3 /* LVData.m in Sources */ = {isa = PBXBuildFile; fileRef = FDECC30DEBB3B03A536D2EC9802888E1 /* LVData.m */; };
+		D911ED533225F1D9AAA9E8032EBAF352 /* LVButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5C0FB7836FACB42DFE59E15F868537 /* LVButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9494311A38EE3A72CCB46970044CD29 /* LVTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D1FDDB62DD94296A5450F355FA26EF /* LVTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB85B4AF65E6CC774B87D6C167C7BB60 /* lVstate.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A126F020D922666CFEA0058D697027 /* lVstate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC4AA67AF1138F63D2021AD9C8E81C26 /* LVNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BE2C3A4C29FE23604BCCC71E6B1E74 /* LVNavigation.m */; };
+		DC52BCF19389F51B4563FC97A5BF9883 /* lVlex.c in Sources */ = {isa = PBXBuildFile; fileRef = 838A2E3717BD2E468B24907677B0F726 /* lVlex.c */; };
+		DF5147A92964D9B8441999BCABD7AA02 /* LVRegisterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D550EDB9E0F74B80617F24A3E41AB3 /* LVRegisterManager.m */; };
+		E026F8DA0EC1105A16DD8859ACF53B86 /* LVPointerValueBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 0208D52CEE1039F528C70941DBA7844B /* LVPointerValueBox.m */; };
+		E3ACE55762602C5452EFD317D942C414 /* LVStyledString.m in Sources */ = {isa = PBXBuildFile; fileRef = 542A6844F37CC30521B81E5F37340D01 /* LVStyledString.m */; };
+		E464D077AA46ED97CB322EB9D2E21056 /* LVPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7239806EA451DEC84CF082660C8B2803 /* LVPagerView.m */; };
+		E4A67850C26BC5E66DC085427C0100B4 /* LVCollectionViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1C3D3B4ABA9A942B47E26B6B228DCB /* LVCollectionViewDelegate.m */; };
+		E4F3F1AB7998F3859990E384E593A496 /* LVHttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C51D8E24177557179FE54455B39017 /* LVHttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E727A34E5D7904248CBA5FD2CD7EC9D4 /* LVRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B74184284CE0A25E30E22B24C7B2DA0F /* LVRotationGestureRecognizer.m */; };
+		E9A24A39FB529D6B8BBD7D40DA030E2F /* LViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A68E40BDA8AC3DFE47AC87ABF46803DC /* LViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA2D79274F36FE242750F53917DE526A /* lVauxlib.h in Headers */ = {isa = PBXBuildFile; fileRef = E1FD14CEC48853547B424DA5A7268E87 /* lVauxlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC5728C639EA7322FFE94BDCF47633CE /* lVundump.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D69344857BD58EF66C2936C9C632187 /* lVundump.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECA0E1BD6BB2F373D60CB2FE820115D6 /* LVPagerIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE8419E7B1E1460B96F7198EE9D4B6D /* LVPagerIndicator.m */; };
+		ECED7F22C08359AC279788E636773EF9 /* LVScrollViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 106C19874F0BCE015630C4E31A32706A /* LVScrollViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDCFB26471E67242DCD4AB1FFFE05AF0 /* LVFile.h in Headers */ = {isa = PBXBuildFile; fileRef = AD86DC5B352225739D5962CD5703C023 /* LVFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFAC4C0EDA20183C784185F08BAFAFA5 /* LVDate.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F4AC8FF23DC4CD94A48F8230947D1B /* LVDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD3EF093ABE3E6A35C5EC4BF3528852 /* LVNinePatchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F548BCA86939E7502524EF53610D19 /* LVNinePatchImage.m */; };
+		F5A7BC4D0B8D144EEA3BFE7395F00E5F /* LVSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = AE24200C6C7AA314E478C5219C23FB76 /* LVSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6956A388113F8F91CD00E3CA2B4C0B8 /* LVNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = E63D69567AE97D6E03DAB6BEE68EA7FA /* LVNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6B7D57B27A345E283E3BD5C7BBC263C /* LVAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 153F92BFF9DC607D1E5E88C2F61D59EB /* LVAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9B16BC9F441FE96E49B8910117A5B18 /* LVSwipeGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C2698479A56AD9323F8D45F4F90C43 /* LVSwipeGestureRecognizer.m */; };
+		FDE85B22155B32F1E0CAC0C39B25CC53 /* LVPanGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 89DAEFFD43BA83B9B2408F47EB78D47B /* LVPanGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEC685050F61DCF9BAD3DAF768C8372F /* JUFLXLinearLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = F56C9254C03C442DF7CC35485941CDB7 /* JUFLXLinearLayoutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEF1CC64893C59AAA243D799CDC46ED3 /* LVBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4624303869CCBE98EAA7D84405E3C2E9 /* LVBaseView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CDB33869B664379C2A476A37C8F5494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40CA4699773965D43ECCCC32F86C9D67;
+			remoteInfo = LuaViewSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00424C6F7C5519E025ABA7E5836467CC /* lVdo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVdo.h; path = IOS/LuaViewSDK/Classes/lv514/lVdo.h; sourceTree = "<group>"; };
+		01C99BD8C57926D550E7CEC9BD4D60DD /* LVDebugConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVDebugConnection.m; path = IOS/LuaViewSDK/Classes/lvdebug/LVDebugConnection.m; sourceTree = "<group>"; };
+		01CFB6620FFA90F2979B442755997EC4 /* LVTapGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVTapGestureRecognizer.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVTapGestureRecognizer.m; sourceTree = "<group>"; };
+		01F34AD3E2DAB396A9D835C3CF00F41F /* lVoslib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVoslib.c; path = IOS/LuaViewSDK/Classes/lv514/lVoslib.c; sourceTree = "<group>"; };
+		0208D52CEE1039F528C70941DBA7844B /* LVPointerValueBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVPointerValueBox.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVPointerValueBox.m; sourceTree = "<group>"; };
+		02C427ADA31CF16932F56806EB6E11BB /* LVLongPressGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVLongPressGestureRecognizer.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		0406EDD3547D06A9CDAB42B34AD9B067 /* LVDebugConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVDebugConnection.h; path = IOS/LuaViewSDK/Classes/lvdebug/LVDebugConnection.h; sourceTree = "<group>"; };
+		04DF51954AA16E77CF48BC1A1E8B989A /* LVAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVAlert.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVAlert.m; sourceTree = "<group>"; };
+		06B198B1BF7F9246D9EE99F764DDED38 /* lV.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lV.c; path = IOS/LuaViewSDK/Classes/lv514/lV.c; sourceTree = "<group>"; };
+		09E80A802B4D4350EB89BD2EB24310B2 /* lVtm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVtm.h; path = IOS/LuaViewSDK/Classes/lv514/lVtm.h; sourceTree = "<group>"; };
+		0D3F423E977086B6CE2F160C09D02740 /* JUFLXLayoutKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JUFLXLayoutKit.h; path = IOS/LuaViewSDK/Classes/layout/JUFLXLayoutKit.h; sourceTree = "<group>"; };
+		0D43D6419AE4C7C84E47E80397479CB6 /* lVstring.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVstring.c; path = IOS/LuaViewSDK/Classes/lv514/lVstring.c; sourceTree = "<group>"; };
+		0E6E9C3B656EA7485D817876047D0D85 /* LVCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVCollectionView.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVCollectionView.m; sourceTree = "<group>"; };
+		1000F820D9D558B1C4AFDAE11888474A /* LVAnimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVAnimate.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVAnimate.h; sourceTree = "<group>"; };
+		106C19874F0BCE015630C4E31A32706A /* LVScrollViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVScrollViewDelegate.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVScrollViewDelegate.h; sourceTree = "<group>"; };
+		10F2F9E266BE90E24129BA5D67C04570 /* lVundump.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVundump.c; path = IOS/LuaViewSDK/Classes/lv514/lVundump.c; sourceTree = "<group>"; };
+		11D26CA071C35442B9908BC068B8992A /* lVfunc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVfunc.h; path = IOS/LuaViewSDK/Classes/lv514/lVfunc.h; sourceTree = "<group>"; };
+		153F92BFF9DC607D1E5E88C2F61D59EB /* LVAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVAudioPlayer.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVAudioPlayer.h; sourceTree = "<group>"; };
+		16F84CAA6939E580A6F073D236E7D303 /* LVDebuger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVDebuger.h; path = IOS/LuaViewSDK/Classes/lvdebug/LVDebuger.h; sourceTree = "<group>"; };
+		1A7F6681597EE330B0656614C853794F /* LVPagerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVPagerView.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVPagerView.h; sourceTree = "<group>"; };
+		20E635553ABFA780E2B2F4F6C05D7F5E /* lVstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVstring.h; path = IOS/LuaViewSDK/Classes/lv514/lVstring.h; sourceTree = "<group>"; };
+		224C167C3CB49C7036671FB2FAAAB509 /* LVCollectionViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVCollectionViewDelegate.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVCollectionViewDelegate.h; sourceTree = "<group>"; };
+		23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		2437FC1AA45C320C6BDF0A39C4CC6A87 /* lVzio.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVzio.c; path = IOS/LuaViewSDK/Classes/lv514/lVzio.c; sourceTree = "<group>"; };
+		247BE4561DED0216200C80A2AA9B9E29 /* Pods-LuaBuyi-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuaBuyi-acknowledgements.plist"; sourceTree = "<group>"; };
+		2521F5E397B3971A9F1E000B340B6340 /* LVLoadingIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVLoadingIndicator.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVLoadingIndicator.h; sourceTree = "<group>"; };
+		25ECB337647FDA160F8F3C74DBA5D4B7 /* LVDebugLua.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVDebugLua.m; path = IOS/LuaViewSDK/Classes/lvdebug/LVDebugLua.m; sourceTree = "<group>"; };
+		2B5BFB0F8AE4CC05B11337890D1BFE21 /* LVHeads.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVHeads.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVHeads.h; sourceTree = "<group>"; };
+		2D5528A479B2DE45CA961EFFDE2BD826 /* LVExternalLinker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVExternalLinker.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVExternalLinker.h; sourceTree = "<group>"; };
+		2EC037117097B586465D7379BEEFF0F8 /* LVBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVBaseView.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVBaseView.h; sourceTree = "<group>"; };
+		2FAAD14612676DEDACA3BD5E3D7B32A7 /* lVvm.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVvm.c; path = IOS/LuaViewSDK/Classes/lv514/lVvm.c; sourceTree = "<group>"; };
+		2FCF88C73C72C6A98A78FC25B0E7B9BF /* LVUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVUtil.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVUtil.m; sourceTree = "<group>"; };
+		30444384511E1229D948DA681DED3866 /* lVobject.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVobject.c; path = IOS/LuaViewSDK/Classes/lv514/lVobject.c; sourceTree = "<group>"; };
+		33ADAF1455EB244468F5FCD20C24F86C /* LVTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVTableViewCell.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVTableViewCell.m; sourceTree = "<group>"; };
+		33BE2C3A4C29FE23604BCCC71E6B1E74 /* LVNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVNavigation.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVNavigation.m; sourceTree = "<group>"; };
+		354719B530E0FDB17C203C09A3070AF4 /* LVTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVTimer.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVTimer.m; sourceTree = "<group>"; };
+		357CD96A9E98BEBC85C8CB6836D2AC69 /* Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Layout.h; path = IOS/LuaViewSDK/Classes/layout/Layout.h; sourceTree = "<group>"; };
+		3698DD89C9F29D07D106A16B512CF314 /* LVAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVAnimator.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVAnimator.m; sourceTree = "<group>"; };
+		372B826113165F87FB4E81A6DA07DE0E /* LVImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVImage.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVImage.m; sourceTree = "<group>"; };
+		382AEFF2C1ECFB58CD19368C988EC239 /* LView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LView.m; path = IOS/LuaViewSDK/Classes/LView.m; sourceTree = "<group>"; };
+		387C78EA6E6B08B3EEDBD2040F0396FC /* Layout.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = Layout.c; path = IOS/LuaViewSDK/Classes/layout/Layout.c; sourceTree = "<group>"; };
+		38A126F020D922666CFEA0058D697027 /* lVstate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVstate.h; path = IOS/LuaViewSDK/Classes/lv514/lVstate.h; sourceTree = "<group>"; };
+		393A596905931AA1A862FD01ACAF6A71 /* LVTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVTableView.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVTableView.h; sourceTree = "<group>"; };
+		3A4E9E9C1E12BE7AF0C0C3BB2196807A /* lVopcodes.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVopcodes.c; path = IOS/LuaViewSDK/Classes/lv514/lVopcodes.c; sourceTree = "<group>"; };
+		3CF8A8E6828B4EF12B7D0D6559D80F48 /* LVDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVDate.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVDate.m; sourceTree = "<group>"; };
+		3D69344857BD58EF66C2936C9C632187 /* lVundump.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVundump.h; path = IOS/LuaViewSDK/Classes/lv514/lVundump.h; sourceTree = "<group>"; };
+		3E3FAE0DE7F6F7B71A3FC5417AF4160A /* LVCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVCollectionViewCell.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVCollectionViewCell.m; sourceTree = "<group>"; };
+		3E4C0D51640926E57C34A4F0307E03C4 /* lVapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVapi.c; path = IOS/LuaViewSDK/Classes/lv514/lVapi.c; sourceTree = "<group>"; };
+		3EDEE28E2FFFB845E5EAE9E367AED228 /* LView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LView.h; path = IOS/LuaViewSDK/Classes/LView.h; sourceTree = "<group>"; };
+		408B3F98A56D2F3DFA4D7A215C4ABFD2 /* LVCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVCollectionView.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVCollectionView.h; sourceTree = "<group>"; };
+		4323C1200A63A4A66D53CA834A34EF60 /* LVExternalLinker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVExternalLinker.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVExternalLinker.m; sourceTree = "<group>"; };
+		45CC2315F7D936576574636994BDC6CC /* LVPkgManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVPkgManager.h; path = IOS/LuaViewSDK/Classes/PKG/LVPkgManager.h; sourceTree = "<group>"; };
+		4624303869CCBE98EAA7D84405E3C2E9 /* LVBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVBaseView.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVBaseView.m; sourceTree = "<group>"; };
+		46A058E5EB5DB4F38B4754385CF1415F /* LVPagerViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVPagerViewCell.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVPagerViewCell.h; sourceTree = "<group>"; };
+		46C2698479A56AD9323F8D45F4F90C43 /* LVSwipeGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVSwipeGestureRecognizer.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVSwipeGestureRecognizer.m; sourceTree = "<group>"; };
+		47298AA4F821D714264068A037A773C7 /* LVLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVLabel.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVLabel.m; sourceTree = "<group>"; };
+		47A218B67EAAB593A6945F2899DD5A1A /* UIGestureRecognizer+LuaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+LuaView.h"; path = "IOS/LuaViewSDK/Classes/lvsdk/UIGestureRecognizer+LuaView.h"; sourceTree = "<group>"; };
+		47DBB1F8ACB5BC7B9FE87EE856C5C8BA /* LuaViewSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LuaViewSDK-dummy.m"; sourceTree = "<group>"; };
+		47F5A52D031FF55D8F64E1C6E3091150 /* lVtable.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVtable.c; path = IOS/LuaViewSDK/Classes/lv514/lVtable.c; sourceTree = "<group>"; };
+		485F28F8DEF10EB160431B86B55A9802 /* lVcode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVcode.c; path = IOS/LuaViewSDK/Classes/lv514/lVcode.c; sourceTree = "<group>"; };
+		49EC6E25581D5DEE8529B6A94B7D90CF /* LViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LViewController.m; path = IOS/LuaViewSDK/Classes/LViewController.m; sourceTree = "<group>"; };
+		4A5F700326692EC11FED30A0C557466C /* LVAnimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVAnimate.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVAnimate.m; sourceTree = "<group>"; };
+		4B107A73AC29FE3C1306C8703119ECC3 /* LVSwipeGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVSwipeGestureRecognizer.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVSwipeGestureRecognizer.h; sourceTree = "<group>"; };
+		4C0E232AA7DD12030F7C879781964DD7 /* Pods-LuaBuyi-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuaBuyi-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F5EFA9E82B49A9BFA2B2F378D8BFDDB /* LVHttp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVHttp.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVHttp.m; sourceTree = "<group>"; };
+		4FB8CFC280ABDCFA84881DE174375352 /* LVPagerIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVPagerIndicator.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVPagerIndicator.h; sourceTree = "<group>"; };
+		4FEC2640A0A4B313CF435BFDB04AD96A /* LVStruct.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVStruct.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVStruct.m; sourceTree = "<group>"; };
+		4FFE65B048918975040C78508E84635E /* lVstate.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVstate.c; path = IOS/LuaViewSDK/Classes/lv514/lVstate.c; sourceTree = "<group>"; };
+		5031B193BE2D547D92ECED7746493F50 /* lViolib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lViolib.c; path = IOS/LuaViewSDK/Classes/lv514/lViolib.c; sourceTree = "<group>"; };
+		52B09486D45B70A0096E0C5D26949510 /* lVdebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVdebug.h; path = IOS/LuaViewSDK/Classes/lv514/lVdebug.h; sourceTree = "<group>"; };
+		52EA2BFC12D80358180AD2830EDF47DE /* LVScrollViewDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVScrollViewDelegate.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVScrollViewDelegate.m; sourceTree = "<group>"; };
+		538D060108120D6DE629B5E3A94366F1 /* lVdo.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVdo.c; path = IOS/LuaViewSDK/Classes/lv514/lVdo.c; sourceTree = "<group>"; };
+		53C43B920F3B13C4E65F1DA29F5D5511 /* lVlimits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVlimits.h; path = IOS/LuaViewSDK/Classes/lv514/lVlimits.h; sourceTree = "<group>"; };
+		542A6844F37CC30521B81E5F37340D01 /* LVStyledString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVStyledString.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVStyledString.m; sourceTree = "<group>"; };
+		546694D504058972B7C862CE17EAE98D /* lVgc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVgc.c; path = IOS/LuaViewSDK/Classes/lv514/lVgc.c; sourceTree = "<group>"; };
+		554421FF7436835F5ADB12A58F74207D /* LVLuaObjBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVLuaObjBox.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVLuaObjBox.m; sourceTree = "<group>"; };
+		59939532B638257D338F1BF3633C20D7 /* JUFLXCSSParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JUFLXCSSParser.m; path = IOS/LuaViewSDK/Classes/layout/JUFLXCSSParser.m; sourceTree = "<group>"; };
+		5B52FDE6E4C130C892EDCBEE220FC6F5 /* LVPanGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVPanGestureRecognizer.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVPanGestureRecognizer.m; sourceTree = "<group>"; };
+		5C7764571106E9B86814309CCD90A837 /* LVRSA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVRSA.m; path = IOS/LuaViewSDK/Classes/RSA/LVRSA.m; sourceTree = "<group>"; };
+		5D718D4C7E2AE1D89384AE034F2F81CD /* lVconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVconf.h; path = IOS/LuaViewSDK/Classes/lv514/lVconf.h; sourceTree = "<group>"; };
+		5DB5E94740DD89BF7FD610B9F6648974 /* LVFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVFile.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVFile.m; sourceTree = "<group>"; };
+		5EA53A8B0284E93314F03BC43E72DC54 /* LVLoadingIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVLoadingIndicator.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVLoadingIndicator.m; sourceTree = "<group>"; };
+		5FFA7114B2C60C9EB5FA4897841A256F /* UIView+LuaView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LuaView.m"; path = "IOS/LuaViewSDK/Classes/lvsdk/UIView+LuaView.m"; sourceTree = "<group>"; };
+		60022F51A1634A08FBC23174DCCEEE38 /* LVNetworkStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVNetworkStatus.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVNetworkStatus.h; sourceTree = "<group>"; };
+		608B3E137B074A2351DCB807D8F494A5 /* lVdebug.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVdebug.c; path = IOS/LuaViewSDK/Classes/lv514/lVdebug.c; sourceTree = "<group>"; };
+		61D550EDB9E0F74B80617F24A3E41AB3 /* LVRegisterManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVRegisterManager.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVRegisterManager.m; sourceTree = "<group>"; };
+		6585CA47D4E7BC9CC2C4A9B7F59D8DEE /* LVNetworkStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVNetworkStatus.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVNetworkStatus.m; sourceTree = "<group>"; };
+		670903C6923C0A52F6EE6C1CD3103DB0 /* Pods-LuaBuyi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuaBuyi-dummy.m"; sourceTree = "<group>"; };
+		6A8BEA531AE81709CB0F5BB922CFA185 /* UIView+JUFLXNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+JUFLXNode.h"; path = "IOS/LuaViewSDK/Classes/layout/UIView+JUFLXNode.h"; sourceTree = "<group>"; };
+		6DF5B011CA59413F79A857882812A3E1 /* JUFLXNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JUFLXNode.m; path = IOS/LuaViewSDK/Classes/layout/JUFLXNode.m; sourceTree = "<group>"; };
+		6F1C3D3B4ABA9A942B47E26B6B228DCB /* LVCollectionViewDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVCollectionViewDelegate.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVCollectionViewDelegate.m; sourceTree = "<group>"; };
+		71FBC28D29762BD33BF22C7F756EED21 /* LVGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVGestureRecognizer.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVGestureRecognizer.m; sourceTree = "<group>"; };
+		7239806EA451DEC84CF082660C8B2803 /* LVPagerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVPagerView.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVPagerView.m; sourceTree = "<group>"; };
+		72B6A2DFEC8AE0726B22C5206ED25644 /* JUFLXTargeNamespace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JUFLXTargeNamespace.h; path = IOS/LuaViewSDK/Classes/layout/JUFLXTargeNamespace.h; sourceTree = "<group>"; };
+		736F5AA28D28A095081B53D0F6470A1E /* LVBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVBlock.m; path = IOS/LuaViewSDK/Classes/LVBlock.m; sourceTree = "<group>"; };
+		74639C1106020AAF38373ABD11BF6838 /* LVTableViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVTableViewDelegate.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVTableViewDelegate.h; sourceTree = "<group>"; };
+		746796D7AAD0BD4AC7132DC51938DF6A /* LVStruct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVStruct.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVStruct.h; sourceTree = "<group>"; };
+		75C2242E46F16D96CCCDD276FA1DAAAE /* lVauxlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVauxlib.c; path = IOS/LuaViewSDK/Classes/lv514/lVauxlib.c; sourceTree = "<group>"; };
+		7745D9C5E9570A36DB8BDFDA1C6ED2F3 /* lVtm.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVtm.c; path = IOS/LuaViewSDK/Classes/lv514/lVtm.c; sourceTree = "<group>"; };
+		7BF8DEF346C2D9ED3A942B74D3483019 /* LVPinchGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVPinchGestureRecognizer.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVPinchGestureRecognizer.m; sourceTree = "<group>"; };
+		7D23FC9B00137902AC9A781FA90CAA87 /* lV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lV.h; path = IOS/LuaViewSDK/Classes/lv514/lV.h; sourceTree = "<group>"; };
+		7D6EF1CC763872DEA6ACBCE6A69361C7 /* LVLuaObjBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVLuaObjBox.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVLuaObjBox.h; sourceTree = "<group>"; };
+		7E678078A6E9807E5C5E9E7BAF4F0FA1 /* LVStyledString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVStyledString.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVStyledString.h; sourceTree = "<group>"; };
+		7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		808E6AB15D82139DC7EA68FC81B2DC43 /* LVTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVTextField.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVTextField.h; sourceTree = "<group>"; };
+		82E70A3C91C57EE93746B3F93BED4D73 /* lVinit.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVinit.c; path = IOS/LuaViewSDK/Classes/lv514/lVinit.c; sourceTree = "<group>"; };
+		8366C644EFD42ACDB19BED7999DB9E4F /* lVc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVc.c; path = IOS/LuaViewSDK/Classes/lv514/lVc.c; sourceTree = "<group>"; };
+		838A2E3717BD2E468B24907677B0F726 /* lVlex.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVlex.c; path = IOS/LuaViewSDK/Classes/lv514/lVlex.c; sourceTree = "<group>"; };
+		863BCDD64643F043377AD2DE651D498A /* LVZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVZipArchive.h; path = IOS/LuaViewSDK/Classes/PKG/LVZipArchive.h; sourceTree = "<group>"; };
+		86E9C3748FD54AA6AEB685A08A7D3F5F /* LVBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVBundle.m; path = IOS/LuaViewSDK/Classes/LVBundle.m; sourceTree = "<group>"; };
+		8780F247DBC32BEC3D37416EB824B19B /* Pods-LuaBuyi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuaBuyi.release.xcconfig"; sourceTree = "<group>"; };
+		88D28BD16973B8636AE5EE81C6083B19 /* Pods-LuaBuyi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuaBuyi.debug.xcconfig"; sourceTree = "<group>"; };
+		89A2CD2E9CADC6741DA74940561FD1BF /* LVCustomPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVCustomPanel.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVCustomPanel.h; sourceTree = "<group>"; };
+		89DAEFFD43BA83B9B2408F47EB78D47B /* LVPanGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVPanGestureRecognizer.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVPanGestureRecognizer.h; sourceTree = "<group>"; };
+		89EAF61955BC920E7B20030CE0E9275C /* LVCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVCollectionViewCell.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVCollectionViewCell.h; sourceTree = "<group>"; };
+		8A517461C24980A6A3CB2088D81184DE /* LVNativeObjBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVNativeObjBox.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVNativeObjBox.h; sourceTree = "<group>"; };
+		8B1E5E180C9A7D34E00C92E0522717CA /* libPods-LuaBuyi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuaBuyi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEE900B15E6FD9F3686663D30419B56 /* UIView+JUFLXNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+JUFLXNode.m"; path = "IOS/LuaViewSDK/Classes/layout/UIView+JUFLXNode.m"; sourceTree = "<group>"; };
+		8CEE65F9C6575444FAEF7C3BBCF5F402 /* LVHeads.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVHeads.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVHeads.m; sourceTree = "<group>"; };
+		8D459843EC85A6916639CB06786FC621 /* LVNinePatchImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVNinePatchImage.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVNinePatchImage.h; sourceTree = "<group>"; };
+		8DA842627154D3D0BB2FD8B7504D8072 /* LVPkgManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVPkgManager.m; path = IOS/LuaViewSDK/Classes/PKG/LVPkgManager.m; sourceTree = "<group>"; };
+		8E13FCEB23F2EC7E283DBFB8127FEEBC /* LVButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVButton.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVButton.m; sourceTree = "<group>"; };
+		8E7DC0179721086B27873C547C00318B /* LVMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVMethod.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVMethod.m; sourceTree = "<group>"; };
+		913FA19718D0E7224FFB0FF8FFD47698 /* lVdblib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVdblib.c; path = IOS/LuaViewSDK/Classes/lv514/lVdblib.c; sourceTree = "<group>"; };
+		9155714C08A8E2A21A4DB4E42ACE965A /* LVPinchGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVPinchGestureRecognizer.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVPinchGestureRecognizer.h; sourceTree = "<group>"; };
+		92395C89239DF3FBD4DC560006EB0D30 /* LVSystem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVSystem.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVSystem.m; sourceTree = "<group>"; };
+		932E396363BDC7A06C9A6A0E35CE3CBF /* lVobject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVobject.h; path = IOS/LuaViewSDK/Classes/lv514/lVobject.h; sourceTree = "<group>"; };
+		933F08F31BD3CC53AF345162CCDA287E /* lVparser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVparser.h; path = IOS/LuaViewSDK/Classes/lv514/lVparser.h; sourceTree = "<group>"; };
+		946B4CADD1F8A0C4DA8CEDF49B162B31 /* libLuaViewSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLuaViewSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		960E92734C85F4C9DA0863F9BD67FFAA /* LVTypeConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVTypeConvert.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVTypeConvert.h; sourceTree = "<group>"; };
+		96C51D8E24177557179FE54455B39017 /* LVHttpResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVHttpResponse.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVHttpResponse.h; sourceTree = "<group>"; };
+		9705B0294F7A2CA86F04B9FE12A81F4A /* JUFLXLinearLayoutView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JUFLXLinearLayoutView.m; path = IOS/LuaViewSDK/Classes/layout/LayoutExtensions/JUFLXLinearLayoutView.m; sourceTree = "<group>"; };
+		97450B1793527796F0AABEBFD7A39E7F /* lVprint.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVprint.c; path = IOS/LuaViewSDK/Classes/lv514/lVprint.c; sourceTree = "<group>"; };
+		98768D9BF3B33D4DA90F4E344296686D /* LVTransform3D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVTransform3D.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVTransform3D.h; sourceTree = "<group>"; };
+		99CBA6271B471E934F45C1892370DE38 /* LVRSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVRSA.h; path = IOS/LuaViewSDK/Classes/RSA/LVRSA.h; sourceTree = "<group>"; };
+		9A04011D4F1C8DE6F9C4BFECC330D387 /* LVRegisterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVRegisterManager.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVRegisterManager.h; sourceTree = "<group>"; };
+		9A0FFEA9B30F7FC60D89597B1A0351FD /* lVmathlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVmathlib.c; path = IOS/LuaViewSDK/Classes/lv514/lVmathlib.c; sourceTree = "<group>"; };
+		9D857D41514597DB9CF950448A2D6283 /* LVCustomPanel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVCustomPanel.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVCustomPanel.m; sourceTree = "<group>"; };
+		9E0EF85431F2F638BB32C1AEA457DEB7 /* LVLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVLabel.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVLabel.h; sourceTree = "<group>"; };
+		A09AC91AACC64E61D403736642221AC3 /* LVNativeObjBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVNativeObjBox.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVNativeObjBox.m; sourceTree = "<group>"; };
+		A4A9BB0F2B1F8E886D0A97DD1E57BE27 /* lVvm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVvm.h; path = IOS/LuaViewSDK/Classes/lv514/lVvm.h; sourceTree = "<group>"; };
+		A5C4C18672862F211AA127BE65C9F052 /* LVToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVToast.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVToast.m; sourceTree = "<group>"; };
+		A68E40BDA8AC3DFE47AC87ABF46803DC /* LViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LViewController.h; path = IOS/LuaViewSDK/Classes/LViewController.h; sourceTree = "<group>"; };
+		A715E3BE080F1667F4EFBA39B3205D53 /* LVTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVTextField.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVTextField.m; sourceTree = "<group>"; };
+		A772E81E1D4C3E2612811B8683EC2B4E /* LVTapGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVTapGestureRecognizer.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVTapGestureRecognizer.h; sourceTree = "<group>"; };
+		A901ABC44E17C956CA1ED1DAC6006DA2 /* UIGestureRecognizer+LuaView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+LuaView.m"; path = "IOS/LuaViewSDK/Classes/lvsdk/UIGestureRecognizer+LuaView.m"; sourceTree = "<group>"; };
+		AAF9932AA31EFE3A59B19673D5941766 /* LVScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVScrollView.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVScrollView.m; sourceTree = "<group>"; };
+		ACB800017C619501084F252A6D7A3839 /* LVDB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVDB.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVDB.m; sourceTree = "<group>"; };
+		AD86DC5B352225739D5962CD5703C023 /* LVFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVFile.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVFile.h; sourceTree = "<group>"; };
+		AE24200C6C7AA314E478C5219C23FB76 /* LVSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVSystem.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVSystem.h; sourceTree = "<group>"; };
+		AE4C0EB0D779DFA00CD36C9A570969D3 /* LVLongPressGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVLongPressGestureRecognizer.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		AEAF8F3E19DB67856CC64BB81B4A63B3 /* LVScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVScrollView.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVScrollView.h; sourceTree = "<group>"; };
+		B0E31CAEE83F92682B0139D18A93B0C8 /* LVImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVImage.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVImage.h; sourceTree = "<group>"; };
+		B1A9147D84673F22307586634AED854B /* lVgc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVgc.h; path = IOS/LuaViewSDK/Classes/lv514/lVgc.h; sourceTree = "<group>"; };
+		B1DC11081515619501FF5E0424359617 /* lVdump.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVdump.c; path = IOS/LuaViewSDK/Classes/lv514/lVdump.c; sourceTree = "<group>"; };
+		B1FEE681F103B2439527722EDFD5A16F /* UIScrollView+LuaView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+LuaView.m"; path = "IOS/LuaViewSDK/Classes/lvsdk/UIScrollView+LuaView.m"; sourceTree = "<group>"; };
+		B3D888ACC13083FE347F55B89CAD1236 /* lVapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVapi.h; path = IOS/LuaViewSDK/Classes/lv514/lVapi.h; sourceTree = "<group>"; };
+		B4F6F945DF35BC0021E03C9D0455781E /* LVMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVMethod.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVMethod.h; sourceTree = "<group>"; };
+		B51D951AA28C5A7BA8796FC09C2E9D17 /* LVDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVDownloader.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVDownloader.m; sourceTree = "<group>"; };
+		B5A683472C2C4067D6C25CF6AA7C7869 /* lVmem.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVmem.c; path = IOS/LuaViewSDK/Classes/lv514/lVmem.c; sourceTree = "<group>"; };
+		B5F23E6382A5DF0F143296E341F28FDE /* UIView+LuaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LuaView.h"; path = "IOS/LuaViewSDK/Classes/lvsdk/UIView+LuaView.h"; sourceTree = "<group>"; };
+		B63941D74A8B16A4CE4B8B8FFB673588 /* LVAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVAlert.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVAlert.h; sourceTree = "<group>"; };
+		B74184284CE0A25E30E22B24C7B2DA0F /* LVRotationGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVRotationGestureRecognizer.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		B899F943419F46960C8C8AB36C785AAB /* lVstrlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVstrlib.c; path = IOS/LuaViewSDK/Classes/lv514/lVstrlib.c; sourceTree = "<group>"; };
+		B9F0D2D169F0CC8D851BF12F886E7081 /* lVmem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVmem.h; path = IOS/LuaViewSDK/Classes/lv514/lVmem.h; sourceTree = "<group>"; };
+		BA57422B2F0D6E1F4C1EF83793EB4971 /* LVDebuger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVDebuger.m; path = IOS/LuaViewSDK/Classes/lvdebug/LVDebuger.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBE8419E7B1E1460B96F7198EE9D4B6D /* LVPagerIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVPagerIndicator.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVPagerIndicator.m; sourceTree = "<group>"; };
+		BC5BF3EB24E9D7BDAD1A18DC9C569808 /* lVfunc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVfunc.c; path = IOS/LuaViewSDK/Classes/lv514/lVfunc.c; sourceTree = "<group>"; };
+		BCD3BBD5F6DADA12EE2A8727D2ED3126 /* LVPointerValueBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVPointerValueBox.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVPointerValueBox.h; sourceTree = "<group>"; };
+		BE87BC737424750DED0D97E3CA3B9BBF /* Pods-LuaBuyi-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuaBuyi-frameworks.sh"; sourceTree = "<group>"; };
+		BEEB20E836A529124CFAF58B7BFF85CB /* Pods-LuaBuyi-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuaBuyi-resources.sh"; sourceTree = "<group>"; };
+		C1D1FDDB62DD94296A5450F355FA26EF /* LVTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVTimer.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVTimer.h; sourceTree = "<group>"; };
+		C25D344421B61847646064C3A00E8D18 /* lVtablib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVtablib.c; path = IOS/LuaViewSDK/Classes/lv514/lVtablib.c; sourceTree = "<group>"; };
+		C34FCFBE0D83D0D5127B525EE062BC72 /* lVtable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVtable.h; path = IOS/LuaViewSDK/Classes/lv514/lVtable.h; sourceTree = "<group>"; };
+		C3FAA5D254EBFAF84E3BE3CBF5EDCB82 /* lVoadlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVoadlib.c; path = IOS/LuaViewSDK/Classes/lv514/lVoadlib.c; sourceTree = "<group>"; };
+		C60052B6A65CC1EE193202CA288864F7 /* LVDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVDownloader.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVDownloader.h; sourceTree = "<group>"; };
+		C7616A118C363F5D5206450B8D9B927C /* JUFLXCSSParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JUFLXCSSParser.h; path = IOS/LuaViewSDK/Classes/layout/JUFLXCSSParser.h; sourceTree = "<group>"; };
+		C7AC34124C943BDA8480AB3409E7BB41 /* JUFLXNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JUFLXNode.h; path = IOS/LuaViewSDK/Classes/layout/JUFLXNode.h; sourceTree = "<group>"; };
+		C8DE058C56080EAF5AACC35147ACFBA2 /* LVGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVGestureRecognizer.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVGestureRecognizer.h; sourceTree = "<group>"; };
+		C8F4AC8FF23DC4CD94A48F8230947D1B /* LVDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVDate.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVDate.h; sourceTree = "<group>"; };
+		C8F7911428B0B495649D732E5529E0A6 /* lVlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVlib.h; path = IOS/LuaViewSDK/Classes/lv514/lVlib.h; sourceTree = "<group>"; };
+		C9DE97FBD4227BFA407D796033EBA09F /* LVRotationGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVRotationGestureRecognizer.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		CB0A6C1E89C003AC46D69420CD8EDE4C /* LVHttpResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVHttpResponse.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVHttpResponse.m; sourceTree = "<group>"; };
+		CB90085098CC917541FC478CEA7544EF /* LVTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVTableView.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVTableView.m; sourceTree = "<group>"; };
+		CF54A92A7CA7D67E9448385AD07DC5D7 /* LVTransform3D.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVTransform3D.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVTransform3D.m; sourceTree = "<group>"; };
+		D1B3ED16A09C2F9ADBB98608DE3D33AE /* LVBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVBlock.h; path = IOS/LuaViewSDK/Classes/LVBlock.h; sourceTree = "<group>"; };
+		D48CCF18184A8F833FAE7ABE68AB98C8 /* LuaViewSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuaViewSDK-prefix.pch"; sourceTree = "<group>"; };
+		D7676D4B91F0E0F00656D3D93B1D0C12 /* lVlex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVlex.h; path = IOS/LuaViewSDK/Classes/lv514/lVlex.h; sourceTree = "<group>"; };
+		D8527E2E8EB2191851A947D38A1F8162 /* LVToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVToast.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVToast.h; sourceTree = "<group>"; };
+		D86140EA21185A241A3D338957E3BC25 /* LVDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVDB.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVDB.h; sourceTree = "<group>"; };
+		D8B48309BCE825C91238248210D6DC38 /* LVBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVBundle.h; path = IOS/LuaViewSDK/Classes/LVBundle.h; sourceTree = "<group>"; };
+		D8F548BCA86939E7502524EF53610D19 /* LVNinePatchImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVNinePatchImage.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVNinePatchImage.m; sourceTree = "<group>"; };
+		DC10D7EDCC454656BFBA635AFE8B1447 /* LVUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVUtil.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVUtil.h; sourceTree = "<group>"; };
+		DC1962C6917D50F7C0B4A8E59528C8A3 /* lVbaselib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVbaselib.c; path = IOS/LuaViewSDK/Classes/lv514/lVbaselib.c; sourceTree = "<group>"; };
+		DDF29E531CB45763BEB71A7909B059B8 /* LVPagerViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVPagerViewCell.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVPagerViewCell.m; sourceTree = "<group>"; };
+		DE5C0FB7836FACB42DFE59E15F868537 /* LVButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVButton.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVButton.h; sourceTree = "<group>"; };
+		DF13316F11FB0D977DAFE7D148672AB8 /* LVHttp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVHttp.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVHttp.h; sourceTree = "<group>"; };
+		DFB0D3B0DBAFDBA952EE502F810F308A /* UIScrollView+LuaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+LuaView.h"; path = "IOS/LuaViewSDK/Classes/lvsdk/UIScrollView+LuaView.h"; sourceTree = "<group>"; };
+		E1FD14CEC48853547B424DA5A7268E87 /* lVauxlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVauxlib.h; path = IOS/LuaViewSDK/Classes/lv514/lVauxlib.h; sourceTree = "<group>"; };
+		E2D646D235EEE33CED0F9BABDC87A4A5 /* lVcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVcode.h; path = IOS/LuaViewSDK/Classes/lv514/lVcode.h; sourceTree = "<group>"; };
+		E303E80E3FAAD26313065A2D40707197 /* LVTypeConvert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVTypeConvert.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVTypeConvert.m; sourceTree = "<group>"; };
+		E63D69567AE97D6E03DAB6BEE68EA7FA /* LVNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVNavigation.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVNavigation.h; sourceTree = "<group>"; };
+		E7C46BBF9E44A56368FE9534B97BD814 /* LVZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVZipArchive.m; path = IOS/LuaViewSDK/Classes/PKG/LVZipArchive.m; sourceTree = "<group>"; };
+		E8C2228BC80221157B0A7A7E4433C46C /* LVAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVAudioPlayer.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVAudioPlayer.m; sourceTree = "<group>"; };
+		ED4A41E3F8101F9EF6E94C24D885A712 /* LVData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVData.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVData.h; sourceTree = "<group>"; };
+		ED8ED29384488DD720BF0679C2771516 /* LVTableViewDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVTableViewDelegate.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVTableViewDelegate.m; sourceTree = "<group>"; };
+		EF21459BFAD349BBBDE13B0BFF12D870 /* JUFLXLayoutDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JUFLXLayoutDefine.h; path = IOS/LuaViewSDK/Classes/layout/JUFLXLayoutDefine.h; sourceTree = "<group>"; };
+		EF9BB7174BC1AE045B24BEA6C9E4E757 /* LVTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVTableViewCell.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVTableViewCell.h; sourceTree = "<group>"; };
+		EFB3E90A9613C3F5C789AB5890D47ED1 /* LVAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVAnimator.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVAnimator.h; sourceTree = "<group>"; };
+		F460059B63FC8328B21CDD7579150F6A /* lVparser.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVparser.c; path = IOS/LuaViewSDK/Classes/lv514/lVparser.c; sourceTree = "<group>"; };
+		F56C9254C03C442DF7CC35485941CDB7 /* JUFLXLinearLayoutView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JUFLXLinearLayoutView.h; path = IOS/LuaViewSDK/Classes/layout/LayoutExtensions/JUFLXLinearLayoutView.h; sourceTree = "<group>"; };
+		F951A489FDD46EA89FF5A8E55164DA09 /* lVzio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVzio.h; path = IOS/LuaViewSDK/Classes/lv514/lVzio.h; sourceTree = "<group>"; };
+		FA290E8953BB971F2DC492A101F4A463 /* LuaViewSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuaViewSDK.xcconfig; sourceTree = "<group>"; };
+		FB4BD4050FDFA93AE4233FB1E38312E0 /* lVopcodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVopcodes.h; path = IOS/LuaViewSDK/Classes/lv514/lVopcodes.h; sourceTree = "<group>"; };
+		FDECC30DEBB3B03A536D2EC9802888E1 /* LVData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVData.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56C6B3C745A2DCDFDE6B8F4171128249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960D306432B872718D326A05DD6FF8BA /* CoreGraphics.framework in Frameworks */,
+				B07A23DDD3A59E3D174A04F84C55573A /* Foundation.framework in Frameworks */,
+				40B72DDBE21739DA38B9026F98410BBD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C47E23CF75F0EC9B506DE5EDA55C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB78C9AF026B7C261861FF087DC8B85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E35B3E289DB984DA75A774080D293670 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		151DB23EDD22D50A980A3191D4E5D043 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA290E8953BB971F2DC492A101F4A463 /* LuaViewSDK.xcconfig */,
+				47DBB1F8ACB5BC7B9FE87EE856C5C8BA /* LuaViewSDK-dummy.m */,
+				D48CCF18184A8F833FAE7ABE68AB98C8 /* LuaViewSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LuaViewSDK";
+			sourceTree = "<group>";
+		};
+		239AB429FB9B181538E8BD224C78B4F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62E61455A633ED5D4038C5B55DBCBE1D /* LuaViewSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4644865995C10A0CF55A847E4E334536 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63E28B23BBC4EFA48B1FC76806A1D3A0 /* Pods-LuaBuyi */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		62E61455A633ED5D4038C5B55DBCBE1D /* LuaViewSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C7616A118C363F5D5206450B8D9B927C /* JUFLXCSSParser.h */,
+				59939532B638257D338F1BF3633C20D7 /* JUFLXCSSParser.m */,
+				EF21459BFAD349BBBDE13B0BFF12D870 /* JUFLXLayoutDefine.h */,
+				0D3F423E977086B6CE2F160C09D02740 /* JUFLXLayoutKit.h */,
+				F56C9254C03C442DF7CC35485941CDB7 /* JUFLXLinearLayoutView.h */,
+				9705B0294F7A2CA86F04B9FE12A81F4A /* JUFLXLinearLayoutView.m */,
+				C7AC34124C943BDA8480AB3409E7BB41 /* JUFLXNode.h */,
+				6DF5B011CA59413F79A857882812A3E1 /* JUFLXNode.m */,
+				72B6A2DFEC8AE0726B22C5206ED25644 /* JUFLXTargeNamespace.h */,
+				387C78EA6E6B08B3EEDBD2040F0396FC /* Layout.c */,
+				357CD96A9E98BEBC85C8CB6836D2AC69 /* Layout.h */,
+				06B198B1BF7F9246D9EE99F764DDED38 /* lV.c */,
+				7D23FC9B00137902AC9A781FA90CAA87 /* lV.h */,
+				B63941D74A8B16A4CE4B8B8FFB673588 /* LVAlert.h */,
+				04DF51954AA16E77CF48BC1A1E8B989A /* LVAlert.m */,
+				1000F820D9D558B1C4AFDAE11888474A /* LVAnimate.h */,
+				4A5F700326692EC11FED30A0C557466C /* LVAnimate.m */,
+				EFB3E90A9613C3F5C789AB5890D47ED1 /* LVAnimator.h */,
+				3698DD89C9F29D07D106A16B512CF314 /* LVAnimator.m */,
+				3E4C0D51640926E57C34A4F0307E03C4 /* lVapi.c */,
+				B3D888ACC13083FE347F55B89CAD1236 /* lVapi.h */,
+				153F92BFF9DC607D1E5E88C2F61D59EB /* LVAudioPlayer.h */,
+				E8C2228BC80221157B0A7A7E4433C46C /* LVAudioPlayer.m */,
+				75C2242E46F16D96CCCDD276FA1DAAAE /* lVauxlib.c */,
+				E1FD14CEC48853547B424DA5A7268E87 /* lVauxlib.h */,
+				DC1962C6917D50F7C0B4A8E59528C8A3 /* lVbaselib.c */,
+				2EC037117097B586465D7379BEEFF0F8 /* LVBaseView.h */,
+				4624303869CCBE98EAA7D84405E3C2E9 /* LVBaseView.m */,
+				D1B3ED16A09C2F9ADBB98608DE3D33AE /* LVBlock.h */,
+				736F5AA28D28A095081B53D0F6470A1E /* LVBlock.m */,
+				D8B48309BCE825C91238248210D6DC38 /* LVBundle.h */,
+				86E9C3748FD54AA6AEB685A08A7D3F5F /* LVBundle.m */,
+				DE5C0FB7836FACB42DFE59E15F868537 /* LVButton.h */,
+				8E13FCEB23F2EC7E283DBFB8127FEEBC /* LVButton.m */,
+				8366C644EFD42ACDB19BED7999DB9E4F /* lVc.c */,
+				485F28F8DEF10EB160431B86B55A9802 /* lVcode.c */,
+				E2D646D235EEE33CED0F9BABDC87A4A5 /* lVcode.h */,
+				408B3F98A56D2F3DFA4D7A215C4ABFD2 /* LVCollectionView.h */,
+				0E6E9C3B656EA7485D817876047D0D85 /* LVCollectionView.m */,
+				89EAF61955BC920E7B20030CE0E9275C /* LVCollectionViewCell.h */,
+				3E3FAE0DE7F6F7B71A3FC5417AF4160A /* LVCollectionViewCell.m */,
+				224C167C3CB49C7036671FB2FAAAB509 /* LVCollectionViewDelegate.h */,
+				6F1C3D3B4ABA9A942B47E26B6B228DCB /* LVCollectionViewDelegate.m */,
+				5D718D4C7E2AE1D89384AE034F2F81CD /* lVconf.h */,
+				89A2CD2E9CADC6741DA74940561FD1BF /* LVCustomPanel.h */,
+				9D857D41514597DB9CF950448A2D6283 /* LVCustomPanel.m */,
+				ED4A41E3F8101F9EF6E94C24D885A712 /* LVData.h */,
+				FDECC30DEBB3B03A536D2EC9802888E1 /* LVData.m */,
+				C8F4AC8FF23DC4CD94A48F8230947D1B /* LVDate.h */,
+				3CF8A8E6828B4EF12B7D0D6559D80F48 /* LVDate.m */,
+				D86140EA21185A241A3D338957E3BC25 /* LVDB.h */,
+				ACB800017C619501084F252A6D7A3839 /* LVDB.m */,
+				913FA19718D0E7224FFB0FF8FFD47698 /* lVdblib.c */,
+				608B3E137B074A2351DCB807D8F494A5 /* lVdebug.c */,
+				52B09486D45B70A0096E0C5D26949510 /* lVdebug.h */,
+				0406EDD3547D06A9CDAB42B34AD9B067 /* LVDebugConnection.h */,
+				01C99BD8C57926D550E7CEC9BD4D60DD /* LVDebugConnection.m */,
+				16F84CAA6939E580A6F073D236E7D303 /* LVDebuger.h */,
+				BA57422B2F0D6E1F4C1EF83793EB4971 /* LVDebuger.m */,
+				25ECB337647FDA160F8F3C74DBA5D4B7 /* LVDebugLua.m */,
+				538D060108120D6DE629B5E3A94366F1 /* lVdo.c */,
+				00424C6F7C5519E025ABA7E5836467CC /* lVdo.h */,
+				C60052B6A65CC1EE193202CA288864F7 /* LVDownloader.h */,
+				B51D951AA28C5A7BA8796FC09C2E9D17 /* LVDownloader.m */,
+				B1DC11081515619501FF5E0424359617 /* lVdump.c */,
+				2D5528A479B2DE45CA961EFFDE2BD826 /* LVExternalLinker.h */,
+				4323C1200A63A4A66D53CA834A34EF60 /* LVExternalLinker.m */,
+				AD86DC5B352225739D5962CD5703C023 /* LVFile.h */,
+				5DB5E94740DD89BF7FD610B9F6648974 /* LVFile.m */,
+				BC5BF3EB24E9D7BDAD1A18DC9C569808 /* lVfunc.c */,
+				11D26CA071C35442B9908BC068B8992A /* lVfunc.h */,
+				546694D504058972B7C862CE17EAE98D /* lVgc.c */,
+				B1A9147D84673F22307586634AED854B /* lVgc.h */,
+				C8DE058C56080EAF5AACC35147ACFBA2 /* LVGestureRecognizer.h */,
+				71FBC28D29762BD33BF22C7F756EED21 /* LVGestureRecognizer.m */,
+				2B5BFB0F8AE4CC05B11337890D1BFE21 /* LVHeads.h */,
+				8CEE65F9C6575444FAEF7C3BBCF5F402 /* LVHeads.m */,
+				DF13316F11FB0D977DAFE7D148672AB8 /* LVHttp.h */,
+				4F5EFA9E82B49A9BFA2B2F378D8BFDDB /* LVHttp.m */,
+				96C51D8E24177557179FE54455B39017 /* LVHttpResponse.h */,
+				CB0A6C1E89C003AC46D69420CD8EDE4C /* LVHttpResponse.m */,
+				3EDEE28E2FFFB845E5EAE9E367AED228 /* LView.h */,
+				382AEFF2C1ECFB58CD19368C988EC239 /* LView.m */,
+				A68E40BDA8AC3DFE47AC87ABF46803DC /* LViewController.h */,
+				49EC6E25581D5DEE8529B6A94B7D90CF /* LViewController.m */,
+				B0E31CAEE83F92682B0139D18A93B0C8 /* LVImage.h */,
+				372B826113165F87FB4E81A6DA07DE0E /* LVImage.m */,
+				82E70A3C91C57EE93746B3F93BED4D73 /* lVinit.c */,
+				5031B193BE2D547D92ECED7746493F50 /* lViolib.c */,
+				9E0EF85431F2F638BB32C1AEA457DEB7 /* LVLabel.h */,
+				47298AA4F821D714264068A037A773C7 /* LVLabel.m */,
+				838A2E3717BD2E468B24907677B0F726 /* lVlex.c */,
+				D7676D4B91F0E0F00656D3D93B1D0C12 /* lVlex.h */,
+				C8F7911428B0B495649D732E5529E0A6 /* lVlib.h */,
+				53C43B920F3B13C4E65F1DA29F5D5511 /* lVlimits.h */,
+				2521F5E397B3971A9F1E000B340B6340 /* LVLoadingIndicator.h */,
+				5EA53A8B0284E93314F03BC43E72DC54 /* LVLoadingIndicator.m */,
+				02C427ADA31CF16932F56806EB6E11BB /* LVLongPressGestureRecognizer.h */,
+				AE4C0EB0D779DFA00CD36C9A570969D3 /* LVLongPressGestureRecognizer.m */,
+				7D6EF1CC763872DEA6ACBCE6A69361C7 /* LVLuaObjBox.h */,
+				554421FF7436835F5ADB12A58F74207D /* LVLuaObjBox.m */,
+				9A0FFEA9B30F7FC60D89597B1A0351FD /* lVmathlib.c */,
+				B5A683472C2C4067D6C25CF6AA7C7869 /* lVmem.c */,
+				B9F0D2D169F0CC8D851BF12F886E7081 /* lVmem.h */,
+				B4F6F945DF35BC0021E03C9D0455781E /* LVMethod.h */,
+				8E7DC0179721086B27873C547C00318B /* LVMethod.m */,
+				8A517461C24980A6A3CB2088D81184DE /* LVNativeObjBox.h */,
+				A09AC91AACC64E61D403736642221AC3 /* LVNativeObjBox.m */,
+				E63D69567AE97D6E03DAB6BEE68EA7FA /* LVNavigation.h */,
+				33BE2C3A4C29FE23604BCCC71E6B1E74 /* LVNavigation.m */,
+				60022F51A1634A08FBC23174DCCEEE38 /* LVNetworkStatus.h */,
+				6585CA47D4E7BC9CC2C4A9B7F59D8DEE /* LVNetworkStatus.m */,
+				8D459843EC85A6916639CB06786FC621 /* LVNinePatchImage.h */,
+				D8F548BCA86939E7502524EF53610D19 /* LVNinePatchImage.m */,
+				C3FAA5D254EBFAF84E3BE3CBF5EDCB82 /* lVoadlib.c */,
+				30444384511E1229D948DA681DED3866 /* lVobject.c */,
+				932E396363BDC7A06C9A6A0E35CE3CBF /* lVobject.h */,
+				3A4E9E9C1E12BE7AF0C0C3BB2196807A /* lVopcodes.c */,
+				FB4BD4050FDFA93AE4233FB1E38312E0 /* lVopcodes.h */,
+				01F34AD3E2DAB396A9D835C3CF00F41F /* lVoslib.c */,
+				4FB8CFC280ABDCFA84881DE174375352 /* LVPagerIndicator.h */,
+				BBE8419E7B1E1460B96F7198EE9D4B6D /* LVPagerIndicator.m */,
+				1A7F6681597EE330B0656614C853794F /* LVPagerView.h */,
+				7239806EA451DEC84CF082660C8B2803 /* LVPagerView.m */,
+				46A058E5EB5DB4F38B4754385CF1415F /* LVPagerViewCell.h */,
+				DDF29E531CB45763BEB71A7909B059B8 /* LVPagerViewCell.m */,
+				89DAEFFD43BA83B9B2408F47EB78D47B /* LVPanGestureRecognizer.h */,
+				5B52FDE6E4C130C892EDCBEE220FC6F5 /* LVPanGestureRecognizer.m */,
+				F460059B63FC8328B21CDD7579150F6A /* lVparser.c */,
+				933F08F31BD3CC53AF345162CCDA287E /* lVparser.h */,
+				9155714C08A8E2A21A4DB4E42ACE965A /* LVPinchGestureRecognizer.h */,
+				7BF8DEF346C2D9ED3A942B74D3483019 /* LVPinchGestureRecognizer.m */,
+				45CC2315F7D936576574636994BDC6CC /* LVPkgManager.h */,
+				8DA842627154D3D0BB2FD8B7504D8072 /* LVPkgManager.m */,
+				BCD3BBD5F6DADA12EE2A8727D2ED3126 /* LVPointerValueBox.h */,
+				0208D52CEE1039F528C70941DBA7844B /* LVPointerValueBox.m */,
+				97450B1793527796F0AABEBFD7A39E7F /* lVprint.c */,
+				9A04011D4F1C8DE6F9C4BFECC330D387 /* LVRegisterManager.h */,
+				61D550EDB9E0F74B80617F24A3E41AB3 /* LVRegisterManager.m */,
+				C9DE97FBD4227BFA407D796033EBA09F /* LVRotationGestureRecognizer.h */,
+				B74184284CE0A25E30E22B24C7B2DA0F /* LVRotationGestureRecognizer.m */,
+				99CBA6271B471E934F45C1892370DE38 /* LVRSA.h */,
+				5C7764571106E9B86814309CCD90A837 /* LVRSA.m */,
+				AEAF8F3E19DB67856CC64BB81B4A63B3 /* LVScrollView.h */,
+				AAF9932AA31EFE3A59B19673D5941766 /* LVScrollView.m */,
+				106C19874F0BCE015630C4E31A32706A /* LVScrollViewDelegate.h */,
+				52EA2BFC12D80358180AD2830EDF47DE /* LVScrollViewDelegate.m */,
+				4FFE65B048918975040C78508E84635E /* lVstate.c */,
+				38A126F020D922666CFEA0058D697027 /* lVstate.h */,
+				0D43D6419AE4C7C84E47E80397479CB6 /* lVstring.c */,
+				20E635553ABFA780E2B2F4F6C05D7F5E /* lVstring.h */,
+				B899F943419F46960C8C8AB36C785AAB /* lVstrlib.c */,
+				746796D7AAD0BD4AC7132DC51938DF6A /* LVStruct.h */,
+				4FEC2640A0A4B313CF435BFDB04AD96A /* LVStruct.m */,
+				7E678078A6E9807E5C5E9E7BAF4F0FA1 /* LVStyledString.h */,
+				542A6844F37CC30521B81E5F37340D01 /* LVStyledString.m */,
+				4B107A73AC29FE3C1306C8703119ECC3 /* LVSwipeGestureRecognizer.h */,
+				46C2698479A56AD9323F8D45F4F90C43 /* LVSwipeGestureRecognizer.m */,
+				AE24200C6C7AA314E478C5219C23FB76 /* LVSystem.h */,
+				92395C89239DF3FBD4DC560006EB0D30 /* LVSystem.m */,
+				47F5A52D031FF55D8F64E1C6E3091150 /* lVtable.c */,
+				C34FCFBE0D83D0D5127B525EE062BC72 /* lVtable.h */,
+				393A596905931AA1A862FD01ACAF6A71 /* LVTableView.h */,
+				CB90085098CC917541FC478CEA7544EF /* LVTableView.m */,
+				EF9BB7174BC1AE045B24BEA6C9E4E757 /* LVTableViewCell.h */,
+				33ADAF1455EB244468F5FCD20C24F86C /* LVTableViewCell.m */,
+				74639C1106020AAF38373ABD11BF6838 /* LVTableViewDelegate.h */,
+				ED8ED29384488DD720BF0679C2771516 /* LVTableViewDelegate.m */,
+				C25D344421B61847646064C3A00E8D18 /* lVtablib.c */,
+				A772E81E1D4C3E2612811B8683EC2B4E /* LVTapGestureRecognizer.h */,
+				01CFB6620FFA90F2979B442755997EC4 /* LVTapGestureRecognizer.m */,
+				808E6AB15D82139DC7EA68FC81B2DC43 /* LVTextField.h */,
+				A715E3BE080F1667F4EFBA39B3205D53 /* LVTextField.m */,
+				C1D1FDDB62DD94296A5450F355FA26EF /* LVTimer.h */,
+				354719B530E0FDB17C203C09A3070AF4 /* LVTimer.m */,
+				7745D9C5E9570A36DB8BDFDA1C6ED2F3 /* lVtm.c */,
+				09E80A802B4D4350EB89BD2EB24310B2 /* lVtm.h */,
+				D8527E2E8EB2191851A947D38A1F8162 /* LVToast.h */,
+				A5C4C18672862F211AA127BE65C9F052 /* LVToast.m */,
+				98768D9BF3B33D4DA90F4E344296686D /* LVTransform3D.h */,
+				CF54A92A7CA7D67E9448385AD07DC5D7 /* LVTransform3D.m */,
+				960E92734C85F4C9DA0863F9BD67FFAA /* LVTypeConvert.h */,
+				E303E80E3FAAD26313065A2D40707197 /* LVTypeConvert.m */,
+				10F2F9E266BE90E24129BA5D67C04570 /* lVundump.c */,
+				3D69344857BD58EF66C2936C9C632187 /* lVundump.h */,
+				DC10D7EDCC454656BFBA635AFE8B1447 /* LVUtil.h */,
+				2FCF88C73C72C6A98A78FC25B0E7B9BF /* LVUtil.m */,
+				2FAAD14612676DEDACA3BD5E3D7B32A7 /* lVvm.c */,
+				A4A9BB0F2B1F8E886D0A97DD1E57BE27 /* lVvm.h */,
+				2437FC1AA45C320C6BDF0A39C4CC6A87 /* lVzio.c */,
+				F951A489FDD46EA89FF5A8E55164DA09 /* lVzio.h */,
+				863BCDD64643F043377AD2DE651D498A /* LVZipArchive.h */,
+				E7C46BBF9E44A56368FE9534B97BD814 /* LVZipArchive.m */,
+				47A218B67EAAB593A6945F2899DD5A1A /* UIGestureRecognizer+LuaView.h */,
+				A901ABC44E17C956CA1ED1DAC6006DA2 /* UIGestureRecognizer+LuaView.m */,
+				DFB0D3B0DBAFDBA952EE502F810F308A /* UIScrollView+LuaView.h */,
+				B1FEE681F103B2439527722EDFD5A16F /* UIScrollView+LuaView.m */,
+				6A8BEA531AE81709CB0F5BB922CFA185 /* UIView+JUFLXNode.h */,
+				8BEE900B15E6FD9F3686663D30419B56 /* UIView+JUFLXNode.m */,
+				B5F23E6382A5DF0F143296E341F28FDE /* UIView+LuaView.h */,
+				5FFA7114B2C60C9EB5FA4897841A256F /* UIView+LuaView.m */,
+				151DB23EDD22D50A980A3191D4E5D043 /* Support Files */,
+			);
+			path = LuaViewSDK;
+			sourceTree = "<group>";
+		};
+		63E28B23BBC4EFA48B1FC76806A1D3A0 /* Pods-LuaBuyi */ = {
+			isa = PBXGroup;
+			children = (
+				4C0E232AA7DD12030F7C879781964DD7 /* Pods-LuaBuyi-acknowledgements.markdown */,
+				247BE4561DED0216200C80A2AA9B9E29 /* Pods-LuaBuyi-acknowledgements.plist */,
+				670903C6923C0A52F6EE6C1CD3103DB0 /* Pods-LuaBuyi-dummy.m */,
+				BE87BC737424750DED0D97E3CA3B9BBF /* Pods-LuaBuyi-frameworks.sh */,
+				BEEB20E836A529124CFAF58B7BFF85CB /* Pods-LuaBuyi-resources.sh */,
+				88D28BD16973B8636AE5EE81C6083B19 /* Pods-LuaBuyi.debug.xcconfig */,
+				8780F247DBC32BEC3D37416EB824B19B /* Pods-LuaBuyi.release.xcconfig */,
+			);
+			name = "Pods-LuaBuyi";
+			path = "Target Support Files/Pods-LuaBuyi";
+			sourceTree = "<group>";
+		};
+		7B00558AA4EB83DA1E625A25BC091D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				946B4CADD1F8A0C4DA8CEDF49B162B31 /* libLuaViewSDK.a */,
+				8B1E5E180C9A7D34E00C92E0522717CA /* libPods-LuaBuyi.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				239AB429FB9B181538E8BD224C78B4F1 /* Pods */,
+				7B00558AA4EB83DA1E625A25BC091D97 /* Products */,
+				4644865995C10A0CF55A847E4E334536 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E35B3E289DB984DA75A774080D293670 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */,
+				95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */,
+				7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D5402F9E3A5FA32F28461E061E220BC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679FF32AC9B6D9F67A5F8D58564B40B6 /* JUFLXCSSParser.h in Headers */,
+				181F5A17D124D0E85D95DE5047E1CEEF /* JUFLXLayoutDefine.h in Headers */,
+				6FD6B4D828B7DB22DE9C521FC4AEE94A /* JUFLXLayoutKit.h in Headers */,
+				FEC685050F61DCF9BAD3DAF768C8372F /* JUFLXLinearLayoutView.h in Headers */,
+				1CDD8821F0A532D06E039CA90EDED3F0 /* JUFLXNode.h in Headers */,
+				5D20781CFC3FD1BDFFB4B559E599C7D5 /* JUFLXTargeNamespace.h in Headers */,
+				8076B769E6DEE5D210F5545296E8F7C0 /* Layout.h in Headers */,
+				5B40B9095DC3BB788A7348499F2B8BD4 /* lV.h in Headers */,
+				4FE64B3E1AF8DA6D0CC75D849FC90B09 /* LVAlert.h in Headers */,
+				C045EBD7BC782D12EE099AEA956A57E2 /* LVAnimate.h in Headers */,
+				87837A32EBB47F673579595456B26C17 /* LVAnimator.h in Headers */,
+				7444EFB733C731F8A4762791F6E2FFAC /* lVapi.h in Headers */,
+				F6B7D57B27A345E283E3BD5C7BBC263C /* LVAudioPlayer.h in Headers */,
+				EA2D79274F36FE242750F53917DE526A /* lVauxlib.h in Headers */,
+				23EBC8A46C01D7D0A6AC14AD135EA929 /* LVBaseView.h in Headers */,
+				8F3113A2681B82E3E93B7A78B9CFE87D /* LVBlock.h in Headers */,
+				CA44F81250FC450B73F8F08957631949 /* LVBundle.h in Headers */,
+				D911ED533225F1D9AAA9E8032EBAF352 /* LVButton.h in Headers */,
+				1A23335C6E5D0B9CEF88B4AFF5FB6DF6 /* lVcode.h in Headers */,
+				5444DB4A385DAD2AB241F9955FF652FF /* LVCollectionView.h in Headers */,
+				4B21DD923191A14CC287F50E15B18A9E /* LVCollectionViewCell.h in Headers */,
+				109586294A3579BB3F80E26D0A0546E0 /* LVCollectionViewDelegate.h in Headers */,
+				D033E259A9E1788A595BBE0436285C0B /* lVconf.h in Headers */,
+				ADFA4ECF9479679ACB0B147F296A9C72 /* LVCustomPanel.h in Headers */,
+				43311CFC6D1166B9FEFC5928A120C407 /* LVData.h in Headers */,
+				EFAC4C0EDA20183C784185F08BAFAFA5 /* LVDate.h in Headers */,
+				95E8688DC99810E252632AEA3DC4A7E9 /* LVDB.h in Headers */,
+				39EA4A0AB61269F66718AA0C0B3796A7 /* lVdebug.h in Headers */,
+				340929E8E4ABF127DC73233059F862FD /* LVDebugConnection.h in Headers */,
+				6FC5DE28A83E5ABA48E4CF65D949ED8B /* LVDebuger.h in Headers */,
+				D3B800E5EBAD40DBDA4ED6AD0A946AB2 /* lVdo.h in Headers */,
+				C356BE1907B14B12032B46D6D6B89E09 /* LVDownloader.h in Headers */,
+				CB22AB0F60571DAB031547C7A712727F /* LVExternalLinker.h in Headers */,
+				EDCFB26471E67242DCD4AB1FFFE05AF0 /* LVFile.h in Headers */,
+				9CA2F752928C3AB2761FF778242344E9 /* lVfunc.h in Headers */,
+				B10C08D0DB4D6427AFE85FB04D77B3EE /* lVgc.h in Headers */,
+				0D3BD9C78CCB0DABCDB130ACC283854D /* LVGestureRecognizer.h in Headers */,
+				4174AB65A5C1235885314665F43A6181 /* LVHeads.h in Headers */,
+				D3C56E62994F7DAECDED26AB3E36AE89 /* LVHttp.h in Headers */,
+				E4F3F1AB7998F3859990E384E593A496 /* LVHttpResponse.h in Headers */,
+				5CF74976FE6D098A53B39C16F184B648 /* LView.h in Headers */,
+				E9A24A39FB529D6B8BBD7D40DA030E2F /* LViewController.h in Headers */,
+				40206D7FBB558525BD4D1FA597306B54 /* LVImage.h in Headers */,
+				3103BF932FAA265E032D10AAB9CE0B60 /* LVLabel.h in Headers */,
+				B1A1D9AED687C5187276E483C20165A9 /* lVlex.h in Headers */,
+				34670326D04A8A07CE3A50CC3FF1331B /* lVlib.h in Headers */,
+				B73AA8F81603C2591AF5DEE445422514 /* lVlimits.h in Headers */,
+				8B5FA97EFD8F414AA429DB56CF6D8483 /* LVLoadingIndicator.h in Headers */,
+				9F1D778CD07543B3BD9ACB8EC9F3E6B0 /* LVLongPressGestureRecognizer.h in Headers */,
+				7794797A6CE18BC707AAE28D68DF5609 /* LVLuaObjBox.h in Headers */,
+				18F78403B25EB3C30A82FE031C91DCD8 /* lVmem.h in Headers */,
+				7A4911EFC30FBFD2F7ACAA517D285B33 /* LVMethod.h in Headers */,
+				6B06412DE7DC7639CB3C161B54E26341 /* LVNativeObjBox.h in Headers */,
+				F6956A388113F8F91CD00E3CA2B4C0B8 /* LVNavigation.h in Headers */,
+				49D2A9E55DA18F2C4A841144B88BC112 /* LVNetworkStatus.h in Headers */,
+				44CC899D29F14E2F45E1FD1EBC2A9D6F /* LVNinePatchImage.h in Headers */,
+				B7B5FA56A33686981436E2501F6F167A /* lVobject.h in Headers */,
+				A9FB636303FCFBC001470648E904B498 /* lVopcodes.h in Headers */,
+				A28042C94E3DB372B3A285D9EF25143E /* LVPagerIndicator.h in Headers */,
+				9080BD55E26A4E9BF7E4E83BE8BE3851 /* LVPagerView.h in Headers */,
+				D0D5B51E0284C76E482785DAADB182B4 /* LVPagerViewCell.h in Headers */,
+				FDE85B22155B32F1E0CAC0C39B25CC53 /* LVPanGestureRecognizer.h in Headers */,
+				3E21F54B47413D96D70CD1650ED23228 /* lVparser.h in Headers */,
+				5C1629833553CC8042121D1C3F99C588 /* LVPinchGestureRecognizer.h in Headers */,
+				D7B7C2A658001FFBF4AD79022482F7B8 /* LVPkgManager.h in Headers */,
+				30FA3C7A01B427B680A5E661439B6160 /* LVPointerValueBox.h in Headers */,
+				533E9CF27D9295B46E58B2DD162D0339 /* LVRegisterManager.h in Headers */,
+				187D41937406CFAB78CA9270DFCB3617 /* LVRotationGestureRecognizer.h in Headers */,
+				2FF50A7BBA18960127F838B82130545C /* LVRSA.h in Headers */,
+				7B7A973D90DB4B019E7F51F00B511F9B /* LVScrollView.h in Headers */,
+				ECED7F22C08359AC279788E636773EF9 /* LVScrollViewDelegate.h in Headers */,
+				DB85B4AF65E6CC774B87D6C167C7BB60 /* lVstate.h in Headers */,
+				41F3A4FEAA41ED0C36180C1E66387DD6 /* lVstring.h in Headers */,
+				A57FBA63D8F2495528CC6DE1BDF81622 /* LVStruct.h in Headers */,
+				3D88420C2787CF22C8DBF9FD6CB1B69E /* LVStyledString.h in Headers */,
+				0A708A8E45A5047674B45A2D25CD0410 /* LVSwipeGestureRecognizer.h in Headers */,
+				F5A7BC4D0B8D144EEA3BFE7395F00E5F /* LVSystem.h in Headers */,
+				1A11FD30E304EAACA8A04A00C5F7EEB9 /* lVtable.h in Headers */,
+				6D17B4B6E9CAE224CCBBA2A50C322C96 /* LVTableView.h in Headers */,
+				1613CA19CA98BFF3B75C1C68228932B2 /* LVTableViewCell.h in Headers */,
+				CE3D8C40B0A82EE0B4408EFA75181873 /* LVTableViewDelegate.h in Headers */,
+				17CF52CE886712BA1F3A10CDAB946F57 /* LVTapGestureRecognizer.h in Headers */,
+				350D989DCDC17FAF2C31FF8960568660 /* LVTextField.h in Headers */,
+				D9494311A38EE3A72CCB46970044CD29 /* LVTimer.h in Headers */,
+				60217A721AB3F4AD13D7B3F65146C670 /* lVtm.h in Headers */,
+				A1875E4DD5D34E83A87D3D88E5ECAF08 /* LVToast.h in Headers */,
+				0D94F767880763F38B8BE225CF082078 /* LVTransform3D.h in Headers */,
+				4664D5D23F35CE9A05C783D0AF20A17D /* LVTypeConvert.h in Headers */,
+				EC5728C639EA7322FFE94BDCF47633CE /* lVundump.h in Headers */,
+				C7DE70E3C1C417F86612E44C08759A14 /* LVUtil.h in Headers */,
+				6696E05BCA92F437B61ACB7D60145E86 /* lVvm.h in Headers */,
+				44F0B6997927928EA466C9D749D15149 /* lVzio.h in Headers */,
+				BB1FB3B673A9C06BB0C69E57DA36F68A /* LVZipArchive.h in Headers */,
+				AC64354D150C9FC293CE5C9609BED42C /* UIGestureRecognizer+LuaView.h in Headers */,
+				BC6FE3EC8C39E4560EA70B15534F6048 /* UIScrollView+LuaView.h in Headers */,
+				C5FF9F70A35516F4069A508D206FFE00 /* UIView+JUFLXNode.h in Headers */,
+				513D08E13A89B4EC6FD0DAED2F70449B /* UIView+LuaView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40CA4699773965D43ECCCC32F86C9D67 /* LuaViewSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5835EA94BB6AEEB843F06EE73E473B0 /* Build configuration list for PBXNativeTarget "LuaViewSDK" */;
+			buildPhases = (
+				7B147C424C237C31267023E59ADDC433 /* Sources */,
+				56C6B3C745A2DCDFDE6B8F4171128249 /* Frameworks */,
+				D5402F9E3A5FA32F28461E061E220BC0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuaViewSDK;
+			productName = LuaViewSDK;
+			productReference = 946B4CADD1F8A0C4DA8CEDF49B162B31 /* libLuaViewSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E004F18E173C876ACC454779246C710E /* Pods-LuaBuyi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68162AF9C16C2BB0CD00E54BB47694D /* Build configuration list for PBXNativeTarget "Pods-LuaBuyi" */;
+			buildPhases = (
+				7F1E024CFD920D1B161D78C9B97F6B68 /* Sources */,
+				F6C47E23CF75F0EC9B506DE5EDA55C00 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAD806F8BE01725EA20D9E03673CF10D /* PBXTargetDependency */,
+			);
+			name = "Pods-LuaBuyi";
+			productName = "Pods-LuaBuyi";
+			productReference = 8B1E5E180C9A7D34E00C92E0522717CA /* libPods-LuaBuyi.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7B00558AA4EB83DA1E625A25BC091D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40CA4699773965D43ECCCC32F86C9D67 /* LuaViewSDK */,
+				E004F18E173C876ACC454779246C710E /* Pods-LuaBuyi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B147C424C237C31267023E59ADDC433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4BC1FEC76BF999E71E1542FE49D29E /* JUFLXCSSParser.m in Sources */,
+				D18BC38C8E1CC1EFF190B55CDDDDC2C4 /* JUFLXLinearLayoutView.m in Sources */,
+				593827D82BB037FA1DCCB0B4D673979B /* JUFLXNode.m in Sources */,
+				39ACB4AE431C3D7E6A60137D94CB17C2 /* Layout.c in Sources */,
+				C57E9C1E98E4386124B50CA68F514B6C /* LuaViewSDK-dummy.m in Sources */,
+				32A25FF3D6877A288447020EE2A44577 /* lV.c in Sources */,
+				2A9E4FF6908E5569101EF29E9DC8E965 /* LVAlert.m in Sources */,
+				4D70DA02C28EB8FD571A3D1F92BB2D04 /* LVAnimate.m in Sources */,
+				A349B2A1C50A544C15EE2D282CC8724E /* LVAnimator.m in Sources */,
+				AC8F479023E1A4B30F239E14E5624A74 /* lVapi.c in Sources */,
+				61BFDF3D34E30715D17DA6EFBD39E262 /* LVAudioPlayer.m in Sources */,
+				D43C6CB1E78D88C7BD0D4AAAC23F015A /* lVauxlib.c in Sources */,
+				1FBFD3A41D252F3B904B065C5F893981 /* lVbaselib.c in Sources */,
+				FEF1CC64893C59AAA243D799CDC46ED3 /* LVBaseView.m in Sources */,
+				0A424A467344535CACAB6264F5810A14 /* LVBlock.m in Sources */,
+				2EBFB86863B122BE4005400751232B80 /* LVBundle.m in Sources */,
+				1A0AD45F80379A03689C81995382D4AC /* LVButton.m in Sources */,
+				5FE0265081376C47C209FE7E8897A19E /* lVc.c in Sources */,
+				B3650974A37CDBFBEA0BEE400B1A6ACB /* lVcode.c in Sources */,
+				20F652D1A11B2A7F409F8BFE99C9F5AB /* LVCollectionView.m in Sources */,
+				0ADB8025C900DFBAB9DD1C0D075B9D15 /* LVCollectionViewCell.m in Sources */,
+				E4A67850C26BC5E66DC085427C0100B4 /* LVCollectionViewDelegate.m in Sources */,
+				4782B0306CDFF5881A1CC9D47EBFFB3A /* LVCustomPanel.m in Sources */,
+				D8F4FC1484CD4B409B6C6544F1D781E3 /* LVData.m in Sources */,
+				6D2C7F907543CF0B5A4AF8078A1FA35B /* LVDate.m in Sources */,
+				1B12FAC364C9C41C3A11D55E9719E60C /* LVDB.m in Sources */,
+				4F3CFA184ED3201A548B83BEECB1C2E6 /* lVdblib.c in Sources */,
+				2BB51F2624D563473B1FEE034BA72DE6 /* lVdebug.c in Sources */,
+				A85AABDB9A1B361C866BAD3131564A04 /* LVDebugConnection.m in Sources */,
+				37EE8A5A48E366A67BFA5C3C7D80A038 /* LVDebuger.m in Sources */,
+				00D2AD6C3E265E1717DEC1C6B15816DC /* LVDebugLua.m in Sources */,
+				030472B91CC2C2502434F3411AFDB1DA /* lVdo.c in Sources */,
+				55C78C4CB7FA7950016D85EBFF2C557A /* LVDownloader.m in Sources */,
+				0D13DA126DA6ED750181084159B4CEBC /* lVdump.c in Sources */,
+				5A66320AA7581D147DD28AE7A496B0DA /* LVExternalLinker.m in Sources */,
+				BD676EBF5E7EF1CEF37318E1F22F5E31 /* LVFile.m in Sources */,
+				986ABC13F27D74817529977564AC96BD /* lVfunc.c in Sources */,
+				09EEEEE396CEBA3FF63F733D72D6957C /* lVgc.c in Sources */,
+				4949429FD007AE47412E61D52B6B6EF5 /* LVGestureRecognizer.m in Sources */,
+				002074491BE59C6F09ED3A7576ADFDF3 /* LVHeads.m in Sources */,
+				A0E84C54DE5B1BAA535C2FED8D6A1E17 /* LVHttp.m in Sources */,
+				D4570A98E5E6E59D6016C480DCFBC3E0 /* LVHttpResponse.m in Sources */,
+				867E90453DBF663E27CC06C105DD865F /* LView.m in Sources */,
+				7A852ED3E1ED1249AFE9B708EB7BDB74 /* LViewController.m in Sources */,
+				8E20DD7328F084E2CF567991004D33D7 /* LVImage.m in Sources */,
+				83B4EF10815DAC988CE9A1DF1C927925 /* lVinit.c in Sources */,
+				122104BF58BCF6B72B3C6852B23C6AD3 /* lViolib.c in Sources */,
+				B70B5A0118A3E6EC8E2A150501DC1FD6 /* LVLabel.m in Sources */,
+				DC52BCF19389F51B4563FC97A5BF9883 /* lVlex.c in Sources */,
+				A241C7B67EBA8472F180349C0FB20564 /* LVLoadingIndicator.m in Sources */,
+				B3513932B777E11562EE799E65935607 /* LVLongPressGestureRecognizer.m in Sources */,
+				9DDAD198E32A63DA9504694E6276E68F /* LVLuaObjBox.m in Sources */,
+				19D9C4F2597044784BF5DA6A16996051 /* lVmathlib.c in Sources */,
+				35DBF84D0B45F1EDB71D2F487126236B /* lVmem.c in Sources */,
+				6B13B7079C71C07CA84790C873885607 /* LVMethod.m in Sources */,
+				955061CED5FFADFBA7288F14259471D2 /* LVNativeObjBox.m in Sources */,
+				DC4AA67AF1138F63D2021AD9C8E81C26 /* LVNavigation.m in Sources */,
+				D4EE8769E90A1C5B06E18B12EE46756F /* LVNetworkStatus.m in Sources */,
+				EFD3EF093ABE3E6A35C5EC4BF3528852 /* LVNinePatchImage.m in Sources */,
+				94639FA84F25FDBF3C473DACF0FEDCB1 /* lVoadlib.c in Sources */,
+				1675BA69BA68275943BFA0EA5F76B1BB /* lVobject.c in Sources */,
+				B00869E59912960EE876F6CBC8B18B74 /* lVopcodes.c in Sources */,
+				10E539977E499FF036A563FF25CD14E0 /* lVoslib.c in Sources */,
+				ECA0E1BD6BB2F373D60CB2FE820115D6 /* LVPagerIndicator.m in Sources */,
+				E464D077AA46ED97CB322EB9D2E21056 /* LVPagerView.m in Sources */,
+				D5F136DFDB9B5657AC51F3202A133271 /* LVPagerViewCell.m in Sources */,
+				6D87660AF7BF1089ADCE5338ECD89906 /* LVPanGestureRecognizer.m in Sources */,
+				4C6AC388735CEF33161A8E661E8A89E7 /* lVparser.c in Sources */,
+				2A2A1EE181355D64E323FA9EB870B79F /* LVPinchGestureRecognizer.m in Sources */,
+				3305184F9492BC6E63EF8AD5193A82A2 /* LVPkgManager.m in Sources */,
+				E026F8DA0EC1105A16DD8859ACF53B86 /* LVPointerValueBox.m in Sources */,
+				5A9203A78648F8B3D91573AC4DE4F389 /* lVprint.c in Sources */,
+				DF5147A92964D9B8441999BCABD7AA02 /* LVRegisterManager.m in Sources */,
+				E727A34E5D7904248CBA5FD2CD7EC9D4 /* LVRotationGestureRecognizer.m in Sources */,
+				D436C627980AA544660530B933AC3B73 /* LVRSA.m in Sources */,
+				2A106C9FD657A5922EF0B57678C56AF8 /* LVScrollView.m in Sources */,
+				9EC8371112AD4DF2039E7290A720B76E /* LVScrollViewDelegate.m in Sources */,
+				CCBA81A65FA23E313CB347BBBFBBAA8D /* lVstate.c in Sources */,
+				BAC8F329A48288F2BB80880DC055103B /* lVstring.c in Sources */,
+				76F52DBF66474338CC33155A69ED37ED /* lVstrlib.c in Sources */,
+				85604B8A0DD0B187BAAAAFF4B2C2DCFA /* LVStruct.m in Sources */,
+				E3ACE55762602C5452EFD317D942C414 /* LVStyledString.m in Sources */,
+				F9B16BC9F441FE96E49B8910117A5B18 /* LVSwipeGestureRecognizer.m in Sources */,
+				14A27728669EB75F64B335E62A4E6BEC /* LVSystem.m in Sources */,
+				0F2C5D205C892184763AA4A124E1BE1F /* lVtable.c in Sources */,
+				6774F600283CC3E0A1A9F2CC0443A0A5 /* LVTableView.m in Sources */,
+				94F5DFE7FD54B663E3BA5A8410D1DD5C /* LVTableViewCell.m in Sources */,
+				2FDFC30108976FABDFA383809674D193 /* LVTableViewDelegate.m in Sources */,
+				93533BB28525E9BAA9A5CAC62ADF2301 /* lVtablib.c in Sources */,
+				288A9F4F1A3405CBDF00E8222C174BED /* LVTapGestureRecognizer.m in Sources */,
+				3DEC62E3E2EB3634C64CECF2744D34FA /* LVTextField.m in Sources */,
+				B559DD31146FDE61733333462332105D /* LVTimer.m in Sources */,
+				31704E348F0C762BADFA15537FE7A7E2 /* lVtm.c in Sources */,
+				4CBAA5CB2C747F6C22AEC50796527723 /* LVToast.m in Sources */,
+				5748134EE376B74031508FA37567B2E5 /* LVTransform3D.m in Sources */,
+				C93F7AF40D1AFCA6D9AC033A6E14C641 /* LVTypeConvert.m in Sources */,
+				CBF1622D6A1F422656E8C78C3AEBFB2F /* lVundump.c in Sources */,
+				6746A2998B76D18E8843B1118ED3CEB6 /* LVUtil.m in Sources */,
+				0D8E41F85636EE95E13E6E1F0B1F3740 /* lVvm.c in Sources */,
+				8D66FB7C8A01C5704869AE4F47119BB7 /* lVzio.c in Sources */,
+				035F8A6D1C97D5F06ADDCF1399051D01 /* LVZipArchive.m in Sources */,
+				D06316123EABD3B0C00EFEA05593577B /* UIGestureRecognizer+LuaView.m in Sources */,
+				6619EDDC683068BEEF5E399CAECB4616 /* UIScrollView+LuaView.m in Sources */,
+				D32351144BEA4FE430DECA67F20F65E8 /* UIView+JUFLXNode.m in Sources */,
+				00DA3A18BDD7649BCD701B80D322C07C /* UIView+LuaView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1E024CFD920D1B161D78C9B97F6B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4499DFB1DF53AB450C0A217465EA0E63 /* Pods-LuaBuyi-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAD806F8BE01725EA20D9E03673CF10D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LuaViewSDK;
+			target = 40CA4699773965D43ECCCC32F86C9D67 /* LuaViewSDK */;
+			targetProxy = 9CDB33869B664379C2A476A37C8F5494 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		62F351CBA1C1B914DFB4A88CB3FEAFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA290E8953BB971F2DC492A101F4A463 /* LuaViewSDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LuaViewSDK/LuaViewSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7F2EBAADA9FD8A05178503E1EE6BA26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA290E8953BB971F2DC492A101F4A463 /* LuaViewSDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LuaViewSDK/LuaViewSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8255609006D673824FD3BB0FD9F0E310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D28BD16973B8636AE5EE81C6083B19 /* Pods-LuaBuyi.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BF9DFCAF96447963FDEA861EDE0DDEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8780F247DBC32BEC3D37416EB824B19B /* Pods-LuaBuyi.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5835EA94BB6AEEB843F06EE73E473B0 /* Build configuration list for PBXNativeTarget "LuaViewSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2EBAADA9FD8A05178503E1EE6BA26C /* Debug */,
+				62F351CBA1C1B914DFB4A88CB3FEAFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B68162AF9C16C2BB0CD00E54BB47694D /* Build configuration list for PBXNativeTarget "Pods-LuaBuyi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8255609006D673824FD3BB0FD9F0E310 /* Debug */,
+				BF9DFCAF96447963FDEA861EDE0DDEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
